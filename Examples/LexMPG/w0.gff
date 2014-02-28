@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure label-on="Transition" type="fa">
+    <name/>
+    <description/>
+    <alphabet type="propositional">
+        <prop>g0</prop>
+        <prop>r0</prop>
+        <prop>w0</prop>
+        <prop>w1</prop>
+        <prop>w2</prop>
+        <prop>w3</prop>
+    </alphabet>
+    <stateSet>
+        <state sid="0">
+            <x>89</x>
+            <label/>
+            <name/>
+            <description/>
+            <y>175</y>
+        </state>
+        <state sid="1">
+            <x>227</x>
+            <label/>
+            <name/>
+            <description/>
+            <y>176</y>
+        </state>
+    </stateSet>
+    <initialStateSet>
+        <stateID>0</stateID>
+    </initialStateSet>
+    <transitionSet>
+        <transition tid="63">
+            <from>0</from>
+            <to>1</to>
+            <read>~g0 r0 w0</read>
+            <name/>
+            <description/>
+        </transition>
+        <transition tid="62">
+            <from>0</from>
+            <to>0</to>
+            <read>~g0 ~r0 w1</read>
+            <name/>
+            <description/>
+        </transition>
+        <transition tid="61">
+            <from>0</from>
+            <to>0</to>
+            <read>g0 ~r0 w0</read>
+            <name/>
+            <description/>
+        </transition>
+        <transition tid="60">
+            <from>0</from>
+            <to>0</to>
+            <read>g0 r0 w2</read>
+            <name/>
+            <description/>
+        </transition>
+        <transition tid="64">
+            <from>1</from>
+            <to>0</to>
+            <read>g0 w1</read>
+            <name/>
+            <description/>
+        </transition>
+    </transitionSet>
+    <acc type="buchi">
+        <stateID>0</stateID>
+        <stateID>1</stateID>
+    </acc>
+</structure>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+ <!--GFF created with GOAL 2009-04-19.--> 
+ <structure label-on="transition" type="game">
+<!--The list of alphabets.-->
+<alphabet type="propositional">
+</alphabet>
+<!--The list of states.-->
+<stateSet>
+<state sid="0">
+<player>1</player></state>
+<state sid="1">
+<player>1</player></state>
+<state sid="2">
+<player>1</player></state>
+<state sid="3">
+<player>1</player></state>
+<state sid="4">
+<player>0</player></state>
+<state sid="5">
+<player>0</player></state>
+<state sid="6">
+<player>0</player></state>
+<state sid="7">
+<player>0</player></state>
+<state sid="8">
+<player>0</player></state>
+<state sid="9">
+<player>0</player></state>
+<state sid="10">
+<player>0</player></state>
+<state sid="11">
+<player>0</player></state>
+<state sid="12">
+<player>0</player></state>
+</stateSet>
+<!--The list of transitions.-->
+<transitionSet>
+<transition tid="0">
+<from>4</from>
+<to>0</to>
+<read> g1 ~g0 w2</read>
+</transition>
+<transition tid="1">
+<from>4</from>
+<to>2</to>
+<read> g0 ~g1 w1</read>
+</transition>
+<transition tid="2">
+<from>4</from>
+<to>2</to>
+<read> ~g0 ~g1 w1</read>
+</transition>
+<transition tid="3">
+<from>4</from>
+<to>2</to>
+<read> ~g0 ~g1 w1</read>
+</transition>
+<transition tid="4">
+<from>2</from>
+<to>4</to>
+<read> ~r0 ~r1 w0</read>
+</transition>
+<transition tid="5">
+<from>2</from>
+<to>4</to>
+<read> r1 ~r0 w0</read>
+</transition>
+<transition tid="6">
+<from>5</from>
+<to>3</to>
+<read> ~g0 ~g1 w0</read>
+</transition>
+<transition tid="7">
+<from>5</from>
+<to>2</to>
+<read> g0 ~g1 w1</read>
+</transition>
+<transition tid="8">
+<from>5</from>
+<to>1</to>
+<read> g1 ~g0 w1</read>
+</transition>
+<transition tid="9">
+<from>5</from>
+<to>3</to>
+<read> ~g0 ~g1 w0</read>
+</transition>
+<transition tid="10">
+<from>2</from>
+<to>5</to>
+<read> r0 ~r1 w0</read>
+</transition>
+<transition tid="11">
+<from>2</from>
+<to>5</to>
+<read> r0 r1 w0</read>
+</transition>
+<transition tid="12">
+<from>6</from>
+<to>1</to>
+<read> ~g0 ~g1 w1</read>
+</transition>
+<transition tid="13">
+<from>6</from>
+<to>0</to>
+<read> g0 ~g1 w2</read>
+</transition>
+<transition tid="14">
+<from>6</from>
+<to>1</to>
+<read> g1 ~g0 w1</read>
+</transition>
+<transition tid="15">
+<from>6</from>
+<to>1</to>
+<read> ~g0 ~g1 w1</read>
+</transition>
+<transition tid="16">
+<from>1</from>
+<to>6</to>
+<read> ~r0 ~r1 w0</read>
+</transition>
+<transition tid="17">
+<from>1</from>
+<to>6</to>
+<read> r0 ~r1 w0</read>
+</transition>
+<transition tid="18">
+<from>7</from>
+<to>3</to>
+<read> ~g0 ~g1 w0</read>
+</transition>
+<transition tid="19">
+<from>7</from>
+<to>3</to>
+<read> ~g0 ~g1 w0</read>
+</transition>
+<transition tid="20">
+<from>7</from>
+<to>2</to>
+<read> g0 ~g1 w1</read>
+</transition>
+<transition tid="21">
+<from>7</from>
+<to>1</to>
+<read> g1 ~g0 w1</read>
+</transition>
+<transition tid="22">
+<from>1</from>
+<to>7</to>
+<read> r0 r1 w0</read>
+</transition>
+<transition tid="23">
+<from>1</from>
+<to>7</to>
+<read> r1 ~r0 w0</read>
+</transition>
+<transition tid="24">
+<from>8</from>
+<to>3</to>
+<read> ~g0 ~g1 w0</read>
+</transition>
+<transition tid="25">
+<from>8</from>
+<to>1</to>
+<read> g1 ~g0 w1</read>
+</transition>
+<transition tid="26">
+<from>8</from>
+<to>2</to>
+<read> g0 ~g1 w1</read>
+</transition>
+<transition tid="27">
+<from>8</from>
+<to>3</to>
+<read> ~g0 ~g1 w0</read>
+</transition>
+<transition tid="28">
+<from>3</from>
+<to>8</to>
+<read> ~r0 ~r1 w0</read>
+</transition>
+<transition tid="29">
+<from>3</from>
+<to>8</to>
+<read> r0 ~r1 w0</read>
+</transition>
+<transition tid="30">
+<from>3</from>
+<to>8</to>
+<read> r0 r1 w0</read>
+</transition>
+<transition tid="31">
+<from>3</from>
+<to>8</to>
+<read> r1 ~r0 w0</read>
+</transition>
+<transition tid="32">
+<from>9</from>
+<to>0</to>
+<read> g1 ~g0 w2</read>
+</transition>
+<transition tid="33">
+<from>9</from>
+<to>0</to>
+<read> g0 ~g1 w2</read>
+</transition>
+<transition tid="34">
+<from>9</from>
+<to>0</to>
+<read> ~g0 ~g1 w2</read>
+</transition>
+<transition tid="35">
+<from>9</from>
+<to>0</to>
+<read> ~g0 ~g1 w2</read>
+</transition>
+<transition tid="36">
+<from>0</from>
+<to>9</to>
+<read> ~r0 ~r1 w0</read>
+</transition>
+<transition tid="37">
+<from>10</from>
+<to>1</to>
+<read> ~g0 ~g1 w1</read>
+</transition>
+<transition tid="38">
+<from>10</from>
+<to>1</to>
+<read> g1 ~g0 w1</read>
+</transition>
+<transition tid="39">
+<from>10</from>
+<to>0</to>
+<read> g0 ~g1 w2</read>
+</transition>
+<transition tid="40">
+<from>10</from>
+<to>1</to>
+<read> ~g0 ~g1 w1</read>
+</transition>
+<transition tid="41">
+<from>0</from>
+<to>10</to>
+<read> r0 ~r1 w0</read>
+</transition>
+<transition tid="42">
+<from>11</from>
+<to>1</to>
+<read> g1 ~g0 w1</read>
+</transition>
+<transition tid="43">
+<from>11</from>
+<to>3</to>
+<read> ~g0 ~g1 w0</read>
+</transition>
+<transition tid="44">
+<from>11</from>
+<to>3</to>
+<read> ~g0 ~g1 w0</read>
+</transition>
+<transition tid="45">
+<from>11</from>
+<to>2</to>
+<read> g0 ~g1 w1</read>
+</transition>
+<transition tid="46">
+<from>0</from>
+<to>11</to>
+<read> r0 r1 w0</read>
+</transition>
+<transition tid="47">
+<from>12</from>
+<to>0</to>
+<read> g1 ~g0 w2</read>
+</transition>
+<transition tid="48">
+<from>12</from>
+<to>2</to>
+<read> ~g0 ~g1 w1</read>
+</transition>
+<transition tid="49">
+<from>12</from>
+<to>2</to>
+<read> g0 ~g1 w1</read>
+</transition>
+<transition tid="50">
+<from>12</from>
+<to>2</to>
+<read> ~g0 ~g1 w1</read>
+</transition>
+<transition tid="51">
+<from>0</from>
+<to>12</to>
+<read> r1 ~r0 w0</read>
+</transition>
+</transitionSet>
+<!--The list of initial states.-->
+<initialStateSet>
+<stateID>0</stateID>
+</initialStateSet>
+<!--The ACC record.-->
+<acc type="buchi">
+<stateID>0</stateID>
+<stateID>1</stateID>
+<stateID>2</stateID>
+<stateID>3</stateID>
+<stateID>4</stateID>
+<stateID>5</stateID>
+<stateID>6</stateID>
+<stateID>7</stateID>
+<stateID>8</stateID>
+<stateID>9</stateID>
+<stateID>10</stateID>
+<stateID>11</stateID>
+<stateID>12</stateID>
+</acc>
+<!--The automaton description record.-->
+<description/>
+</structure>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+ <!--GFF created with GOAL 2009-04-19.--> 
+ <structure label-on="transition" type="fa">
+<!--The list of alphabets.-->
+<alphabet type="propositional">
+</alphabet>
+<!--The list of states.-->
+<stateSet>
+<state sid="0">
+<label>(0,0)</label></state>
+<state sid="8">
+<label>(0,0)</label></state>
+<state sid="44">
+<label>(0,0)</label></state>
+</stateSet>
+<!--The list of transitions.-->
+<transitionSet>
+<transition tid="8">
+<from>8</from>
+<to>44</to>
+<read>r0 ~r1 g0 g1 </read>
+</transition>
+<transition tid="9">
+<from>8</from>
+<to>44</to>
+<read>r0 r1 g0 g1 </read>
+</transition>
+<transition tid="10">
+<from>8</from>
+<to>44</to>
+<read>r1 ~r0 g0 g1 </read>
+</transition>
+<transition tid="11">
+<from>8</from>
+<to>44</to>
+<read>~r0 ~r1 g1 ~g0 </read>
+</transition>
+<transition tid="136">
+<from>44</from>
+<to>8</to>
+<read>r0 ~r1 g0 ~g1 </read>
+</transition>
+<transition tid="137">
+<from>44</from>
+<to>8</to>
+<read>r0 r1 g0 g1 </read>
+</transition>
+<transition tid="138">
+<from>44</from>
+<to>8</to>
+<read>r1 ~r0 g0 g1 </read>
+</transition>
+<transition tid="139">
+<from>44</from>
+<to>8</to>
+<read>~r0 ~r1 g0 g1 </read>
+</transition>
+<transition tid="188">
+<from>0</from>
+<to>8</to>
+<read>r0 ~r1 g0 g1 </read>
+</transition>
+<transition tid="189">
+<from>0</from>
+<to>8</to>
+<read>r0 r1 g0 g1 </read>
+</transition>
+<transition tid="190">
+<from>0</from>
+<to>8</to>
+<read>r1 ~r0 g0 g1 </read>
+</transition>
+<transition tid="191">
+<from>0</from>
+<to>8</to>
+<read>~r0 ~r1 g0 g1 </read>
+</transition>
+</transitionSet>
+<!--The list of initial states.-->
+<initialStateSet>
+<stateID>0</stateID>
+</initialStateSet>
+<!--The ACC record.-->
+<acc type="buchi">
+<stateID>0</stateID>
+<stateID>8</stateID>
+<stateID>44</stateID>
+</acc>
+<!--The automaton description record.-->
+<description/>
+</structure>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+ <!--GFF created with GOAL 2009-04-19.--> 
+ <structure label-on="transition" type="fa">
+<!--The list of alphabets.-->
+<alphabet type="propositional">
+</alphabet>
+<!--The list of states.-->
+<stateSet>
+<state sid="0">
+<label>(0,0)</label></state>
+<state sid="1">
+<label>(1,0)</label></state>
+<state sid="2">
+<label>(0,1)</label></state>
+<state sid="3">
+<label>(1,1)</label></state>
+</stateSet>
+<!--The list of transitions.-->
+<transitionSet>
+<transition tid="0">
+<from>0</from>
+<to>0</to>
+<read>r0 r1 g0 g1 w2v2</read>
+</transition>
+<transition tid="1">
+<from>1</from>
+<to>0</to>
+<read>~r1 g0 g1 w1v0</read>
+</transition>
+<transition tid="2">
+<from>0</from>
+<to>1</to>
+<read>r0 ~r1 g1 ~g0 w0v0</read>
+</transition>
+<transition tid="3">
+<from>2</from>
+<to>2</to>
+<read>r0 g0 ~g1 w2v0</read>
+</transition>
+<transition tid="4">
+<from>1</from>
+<to>2</to>
+<read>r1 g0 ~g1 w1v0</read>
+</transition>
+<transition tid="5">
+<from>0</from>
+<to>3</to>
+<read>r0 r1 ~g0 ~g1 w0v0</read>
+</transition>
+<transition tid="6">
+<from>1</from>
+<to>0</to>
+<read>~r1 g0 ~g1 w1v1</read>
+</transition>
+<transition tid="7">
+<from>2</from>
+<to>3</to>
+<read>r0 ~g0 ~g1 w0v0</read>
+</transition>
+<transition tid="8">
+<from>3</from>
+<to>2</to>
+<read>g0 ~g1 w1v0</read>
+</transition>
+<transition tid="9">
+<from>2</from>
+<to>2</to>
+<read>~r0 g0 ~g1 w0v0</read>
+</transition>
+<transition tid="10">
+<from>0</from>
+<to>0</to>
+<read>~r0 ~r1 ~g0 ~g1 w1v1</read>
+</transition>
+<transition tid="11">
+<from>0</from>
+<to>1</to>
+<read>r0 ~r1 ~g0 ~g1 w0v1</read>
+</transition>
+<transition tid="12">
+<from>0</from>
+<to>0</to>
+<read>~r0 ~r1 g0 ~g1 w0v1</read>
+</transition>
+<transition tid="13">
+<from>0</from>
+<to>0</to>
+<read>r0 ~r1 g0 ~g1 w2v1</read>
+</transition>
+<transition tid="14">
+<from>2</from>
+<to>2</to>
+<read>~r0 ~g0 ~g1 w1v0</read>
+</transition>
+<transition tid="15">
+<from>0</from>
+<to>0</to>
+<read>r0 ~r1 g0 g1 w2v0</read>
+</transition>
+<transition tid="16">
+<from>0</from>
+<to>0</to>
+<read>~r0 ~r1 g0 g1 w0v0</read>
+</transition>
+<transition tid="17">
+<from>0</from>
+<to>2</to>
+<read>r1 ~r0 ~g0 ~g1 w1v0</read>
+</transition>
+<transition tid="18">
+<from>0</from>
+<to>2</to>
+<read>r0 r1 g0 ~g1 w2v0</read>
+</transition>
+<transition tid="19">
+<from>0</from>
+<to>2</to>
+<read>r1 ~r0 g0 ~g1 w0v0</read>
+</transition>
+<transition tid="20">
+<from>0</from>
+<to>0</to>
+<read>~r0 ~r1 g1 ~g0 w1v0</read>
+</transition>
+<transition tid="21">
+<from>0</from>
+<to>1</to>
+<read>r0 r1 g1 ~g0 w0v2</read>
+</transition>
+<transition tid="22">
+<from>0</from>
+<to>0</to>
+<read>r1 ~r0 g1 ~g0 w1v2</read>
+</transition>
+<transition tid="23">
+<from>1</from>
+<to>0</to>
+<read>r1 g0 g1 w1v2</read>
+</transition>
+<transition tid="24">
+<from>0</from>
+<to>0</to>
+<read>r1 ~r0 g0 g1 w0v2</read>
+</transition>
+</transitionSet>
+<!--The list of initial states.-->
+<initialStateSet>
+<stateID>0</stateID>
+</initialStateSet>
+<!--The ACC record.-->
+<acc type="buchi">
+<stateID>0</stateID>
+<stateID>1</stateID>
+<stateID>2</stateID>
+<stateID>3</stateID>
+</acc>
+<!--The automaton description record.-->
+<description/>
+</structure>

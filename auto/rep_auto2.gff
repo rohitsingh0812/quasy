@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GFF created with GOAL 2009-04-19.-->
+<structure label-on="transition" type="fa">
+    <!--The list of alphabets.-->
+    <alphabet type="propositional">
+        <prop>g0</prop>
+        <prop>r0</prop>
+        <prop>w0</prop>
+        <prop>w1</prop>
+        <prop>w2</prop>
+    </alphabet>
+    <!--The list of states.-->
+    <stateSet>
+        <state sid="0">
+            <x>111.0</x>
+            <y>163.0</y>
+        </state>
+        <state sid="1">
+            <x>160.0</x>
+            <y>74.0</y>
+        </state>
+        <state sid="2">
+            <x>301.0</x>
+            <y>70.0</y>
+        </state>
+        <state sid="3">
+            <x>284.0</x>
+            <y>222.0</y>
+        </state>
+    </stateSet>
+    <!--The list of transitions.-->
+    <transitionSet>
+        <transition tid="10">
+            <from>1</from>
+            <to>3</to>
+            <read>~g0 ~r0 w2</read>
+        </transition>
+        <transition tid="11">
+            <from>3</from>
+            <to>3</to>
+            <read>~g0 ~r0 w1</read>
+        </transition>
+        <transition tid="10">
+            <from>3</from>
+            <to>0</to>
+            <read>g0 r0 w1</read>
+        </transition>
+        <transition tid="1">
+            <from>0</from>
+            <to>1</to>
+            <read>~g0 ~r0 w2</read>
+        </transition>
+        <transition tid="0">
+            <from>0</from>
+            <to>1</to>
+            <read>g0 r0 w2</read>
+        </transition>
+        <transition tid="8">
+            <from>2</from>
+            <to>1</to>
+            <read>g0 r0 w0</read>
+        </transition>
+        <transition tid="3">
+            <from>1</from>
+            <to>2</to>
+            <read>~g0 r0 w1</read>
+        </transition>
+        <transition tid="9">
+            <from>2</from>
+            <to>0</to>
+            <read>g0 ~r0 w1</read>
+        </transition>
+        <transition tid="9">
+            <from>0</from>
+            <to>3</to>
+            <read>~g0 r0 w1</read>
+        </transition>
+        <transition tid="6">
+            <from>0</from>
+            <to>3</to>
+            <read>g0 ~r0 w1</read>
+        </transition>
+        <transition tid="8">
+            <from>1</from>
+            <to>1</to>
+            <read>g0 ~r0 w1</read>
+        </transition>
+    </transitionSet>
+    <!--The list of initial states.-->
+    <initialStateSet>
+        <stateID>0</stateID>
+    </initialStateSet>
+    <!--The ACC record.-->
+    <!--The automaton description record.-->
+    <description/>
+</structure>

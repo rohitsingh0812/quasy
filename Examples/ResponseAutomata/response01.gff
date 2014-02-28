@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure label-on="transition" type="FiniteStateAutomaton">
+    <name/>
+    <description/>
+    <formula/>
+    <!--The list of alphabets.-->
+    <alphabet type="propositional">
+    <prop>r0</prop>
+    <prop>g0</prop>
+    <prop>r1</prop>
+    <prop>g1</prop>
+    </alphabet>
+    <stateSet>
+        <state sid="3">
+            <X>30</X>
+            <Y>30</Y>
+            <properties/>
+        </state>
+        <state sid="5">
+            <X>50</X>
+            <Y>50</Y>
+            <properties/>
+        </state>
+        <state sid="10">
+            <X>100</X>
+            <Y>100</Y>
+            <properties/>
+        </state>
+        <state sid="4">
+            <X>40</X>
+            <Y>40</Y>
+            <properties/>
+        </state>
+        <state sid="7">
+            <X>70</X>
+            <Y>70</Y>
+            <properties/>
+        </state>
+        <state sid="9">
+            <X>90</X>
+            <Y>90</Y>
+            <properties/>
+        </state>
+        <state sid="1">
+            <X>10</X>
+            <Y>10</Y>
+            <properties/>
+        </state>
+        <state sid="8">
+            <X>80</X>
+            <Y>80</Y>
+            <properties/>
+        </state>
+        <state sid="2">
+            <X>20</X>
+            <Y>20</Y>
+            <properties/>
+        </state>
+        <state sid="11">
+            <X>110</X>
+            <Y>110</Y>
+            <properties/>
+        </state>
+        <state sid="6">
+            <X>60</X>
+            <Y>60</Y>
+            <properties/>
+        </state>
+        <state sid="0">
+            <X>0</X>
+            <Y>0</Y>
+            <properties/>
+        </state>
+    </stateSet>
+    <initialStateSet>
+        <stateID>0</stateID>
+    </initialStateSet>
+    <transitionSet>
+        <transition tid="0">
+            <from>6</from>
+            <to>6</to>
+            <label> ~g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="1">
+            <from>5</from>
+            <to>10</to>
+            <label> ~r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="2">
+            <from>10</from>
+            <to>1</to>
+            <label> g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="3">
+            <from>9</from>
+            <to>8</to>
+            <label> ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="4">
+            <from>2</from>
+            <to>11</to>
+            <label> g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="5">
+            <from>11</from>
+            <to>1</to>
+            <label> g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="6">
+            <from>8</from>
+            <to>2</to>
+            <label> ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="7">
+            <from>1</from>
+            <to>8</to>
+            <label> r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="8">
+            <from>10</from>
+            <to>0</to>
+            <label> g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="9">
+            <from>3</from>
+            <to>6</to>
+            <label> ~g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="10">
+            <from>5</from>
+            <to>7</to>
+            <label> g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="11">
+            <from>6</from>
+            <to>5</to>
+            <label> g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="12">
+            <from>2</from>
+            <to>4</to>
+            <label> ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="13">
+            <from>10</from>
+            <to>2</to>
+            <label> r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="14">
+            <from>4</from>
+            <to>4</to>
+            <label> ~g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="15">
+            <from>8</from>
+            <to>2</to>
+            <label> ~g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="16">
+            <from>4</from>
+            <to>11</to>
+            <label> g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="17">
+            <from>1</from>
+            <to>7</to>
+            <label> ~r0 ~g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="18">
+            <from>11</from>
+            <to>3</to>
+            <label> r0 ~g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="19">
+            <from>10</from>
+            <to>1</to>
+            <label> ~r0 ~g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="20">
+            <from>11</from>
+            <to>1</to>
+            <label> ~r0 ~g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="21">
+            <from>0</from>
+            <to>2</to>
+            <label> r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="22">
+            <from>3</from>
+            <to>4</to>
+            <label> ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="23">
+            <from>10</from>
+            <to>0</to>
+            <label> ~r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="24">
+            <from>4</from>
+            <to>5</to>
+            <label> g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="25">
+            <from>5</from>
+            <to>9</to>
+            <label> r0 ~g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="26">
+            <from>10</from>
+            <to>3</to>
+            <label> r0 ~g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="27">
+            <from>0</from>
+            <to>1</to>
+            <label> ~r0 ~g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="28">
+            <from>1</from>
+            <to>9</to>
+            <label> r0 ~g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="29">
+            <from>8</from>
+            <to>1</to>
+            <label> g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="30">
+            <from>7</from>
+            <to>10</to>
+            <label> ~r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="31">
+            <from>3</from>
+            <to>5</to>
+            <label> g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="32">
+            <from>0</from>
+            <to>2</to>
+            <label> r0 ~g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="33">
+            <from>11</from>
+            <to>0</to>
+            <label> g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="34">
+            <from>10</from>
+            <to>2</to>
+            <label> r0 ~g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="35">
+            <from>11</from>
+            <to>0</to>
+            <label> ~r0 ~g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="36">
+            <from>0</from>
+            <to>0</to>
+            <label> g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="37">
+            <from>1</from>
+            <to>10</to>
+            <label> ~r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="38">
+            <from>6</from>
+            <to>4</to>
+            <label> ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="39">
+            <from>7</from>
+            <to>8</to>
+            <label> r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="40">
+            <from>11</from>
+            <to>2</to>
+            <label> r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="41">
+            <from>8</from>
+            <to>0</to>
+            <label> g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="42">
+            <from>7</from>
+            <to>7</to>
+            <label> ~r0 ~g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="43">
+            <from>0</from>
+            <to>1</to>
+            <label> g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="44">
+            <from>0</from>
+            <to>3</to>
+            <label> r0 ~g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="45">
+            <from>9</from>
+            <to>7</to>
+            <label> g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="46">
+            <from>11</from>
+            <to>2</to>
+            <label> r0 ~g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="47">
+            <from>7</from>
+            <to>9</to>
+            <label> r0 ~g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="48">
+            <from>8</from>
+            <to>3</to>
+            <label> ~g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="49">
+            <from>5</from>
+            <to>8</to>
+            <label> r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="50">
+            <from>0</from>
+            <to>0</to>
+            <label> ~r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="51">
+            <from>7</from>
+            <to>7</to>
+            <label> g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="52">
+            <from>9</from>
+            <to>9</to>
+            <label> ~g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="53">
+            <from>5</from>
+            <to>7</to>
+            <label> ~r0 ~g0 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="54">
+            <from>2</from>
+            <to>4</to>
+            <label> ~g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="55">
+            <from>4</from>
+            <to>4</to>
+            <label> ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="56">
+            <from>10</from>
+            <to>0</to>
+            <label> ~r0 ~g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="57">
+            <from>2</from>
+            <to>6</to>
+            <label> ~g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="58">
+            <from>2</from>
+            <to>5</to>
+            <label> g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="59">
+            <from>4</from>
+            <to>6</to>
+            <label> ~g0 r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="60">
+            <from>11</from>
+            <to>0</to>
+            <label> ~r0 ~g0 g1</label>
+            <properties/>
+        </transition>
+        <transition tid="61">
+            <from>0</from>
+            <to>0</to>
+            <label> ~r0 ~g0 ~r1 ~g1</label>
+            <properties/>
+        </transition>
+        <transition tid="62">
+            <from>1</from>
+            <to>7</to>
+            <label> g0 ~g1</label>
+            <properties/>
+        </transition>
+    </transitionSet>
+    <acc type="Parity">
+        <accSet>
+            <stateID>3</stateID>
+            <stateID>1</stateID>
+            <stateID>2</stateID>
+            <stateID>0</stateID>
+        </accSet>
+        <accSet>
+            <stateID>5</stateID>
+            <stateID>10</stateID>
+            <stateID>7</stateID>
+            <stateID>4</stateID>
+            <stateID>9</stateID>
+            <stateID>8</stateID>
+            <stateID>11</stateID>
+            <stateID>6</stateID>
+        </accSet>
+    </acc>
+    <properties/>
+</structure>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GFF created with GOAL 2010-02-01.-->
+<structure label-on="transition" type="fa">
+    <!--The list of alphabets.-->
+    <alphabet type="propositional">
+        <prop>g0</prop>
+        <prop>r0</prop>
+        <prop>w0</prop>
+        <prop>w1</prop>
+    </alphabet>
+    <!--The list of states.-->
+    <stateSet>
+        <state sid="0">
+            <x>188.0</x>
+            <y>157.0</y>
+        </state>
+        <state sid="1">
+            <x>328.0</x>
+            <y>156.0</y>
+        </state>
+    </stateSet>
+    <!--The list of transitions.-->
+    <transitionSet>
+        <transition tid="1">
+            <from>0</from>
+            <to>0</to>
+            <read>g0 w1</read>
+        </transition>
+        <transition tid="3">
+            <from>1</from>
+            <to>1</to>
+            <read>~g0 w0</read>
+        </transition>
+        <transition tid="2">
+            <from>0</from>
+            <to>1</to>
+            <read>~g0 r0 w0</read>
+        </transition>
+        <transition tid="0">
+            <from>0</from>
+            <to>0</to>
+            <read>~g0 ~r0 w1</read>
+        </transition>
+        <transition tid="4">
+            <from>1</from>
+            <to>0</to>
+            <read>g0 w1</read>
+        </transition>
+    </transitionSet>
+    <!--The list of initial states.-->
+    <initialStateSet>
+        <stateID>0</stateID>
+    </initialStateSet>
+    <!--The ACC record.-->
+    <acc type="buchi">
+    <stateID>0</stateID>
+    <stateID>1</stateID>
+    </acc>
+    <!--The automaton description record.-->
+    <description/>
+</structure>

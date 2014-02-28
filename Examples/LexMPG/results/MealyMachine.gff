@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure label-on="Transition" type="fa">
+    <name/>
+    <description/>
+    <alphabet type="propositional"/>
+    <stateSet>
+        <state sid="0">
+            <x>238</x>
+            <label>(0,0)</label>
+            <name/>
+            <description/>
+            <y>213</y>
+        </state>
+    </stateSet>
+    <initialStateSet>
+        <stateID>0</stateID>
+    </initialStateSet>
+    <transitionSet>
+        <transition tid="25">
+            <from>0</from>
+            <to>0</to>
+            <read>r0 r1 ~g0 ~g1 </read>
+        </transition>
+        <transition tid="24">
+            <from>0</from>
+            <to>0</to>
+            <read>r1 ~r0 ~g0 ~g1 </read>
+        </transition>
+        <transition tid="12">
+            <from>0</from>
+            <to>0</to>
+            <read>r0 ~r1 g0 ~g1 </read>
+            <name/>
+            <description/>
+        </transition>
+        <transition tid="14">
+            <from>0</from>
+            <to>0</to>
+            <read>~r0 ~r1 g1 ~g0 </read>
+            <name/>
+            <description/>
+        </transition>
+    </transitionSet>
+    <acc type="buchi">
+        <stateID>0</stateID>
+    </acc>
+</structure>

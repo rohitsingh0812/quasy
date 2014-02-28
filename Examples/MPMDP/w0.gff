@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GFF created with GOAL 2009-04-19.-->
+<structure label-on="transition" type="fa">
+    <!--The list of alphabets.-->
+    <alphabet type="propositional">
+        <prop>g0</prop>
+        <prop>r0</prop>
+        <prop>w0</prop>
+        <prop>w1</prop>
+    </alphabet>
+    <!--The list of states.-->
+    <stateSet>
+        <state sid="0">
+            <x>89.0</x>
+            <y>175.0</y>
+        </state>
+        <state sid="1">
+            <x>307.0</x>
+            <y>159.0</y>
+        </state>
+    </stateSet>
+    <!--The list of transitions.-->
+    <transitionSet>
+        <transition tid="1">
+            <from>0</from>
+            <to>0</to>
+            <read>g0 w1</read>
+        </transition>
+        <transition tid="4">
+            <from>1</from>
+            <to>1</to>
+            <read>~g0 w0</read>
+        </transition>
+        <transition tid="4">
+            <from>1</from>
+            <to>0</to>
+            <read>g0 w1</read>
+        </transition>
+        <transition tid="1">
+            <from>0</from>
+            <to>0</to>
+            <read>~g0 ~r0 w1</read>
+        </transition>
+        <transition tid="4">
+            <from>0</from>
+            <to>1</to>
+            <read>~g0 r0 w0</read>
+        </transition>
+    </transitionSet>
+    <!--The list of initial states.-->
+    <!--The ACC record.-->
+    <!--The automaton description record.-->
+    <description/>
+</structure>

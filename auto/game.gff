@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GFF created with GOAL 2009-04-19.-->
+<structure label-on="transition" type="game">
+    <!--The list of alphabets.-->
+    <alphabet type="propositional">
+        <prop>g0</prop>
+        <prop>r0</prop>
+        <prop>w0</prop>
+        <prop>w2</prop>
+        <prop>w4</prop>
+        <prop>w8</prop>
+    </alphabet>
+    <!--The list of states.-->
+    <stateSet>
+        <state sid="0">
+            <x>163.0</x>
+            <y>280.0</y>
+            <player>1</player>
+        </state>
+        <state sid="1">
+            <x>182.0</x>
+            <y>72.0</y>
+            <player>1</player>
+        </state>
+        <state sid="2">
+            <x>373.0</x>
+            <y>109.0</y>
+            <player>1</player>
+        </state>
+        <state sid="3">
+            <x>445.0</x>
+            <y>20.0</y>
+            <player>0</player>
+        </state>
+        <state sid="4">
+            <x>232.0</x>
+            <y>168.0</y>
+            <player>0</player>
+        </state>
+        <state sid="5">
+            <x>86.0</x>
+            <y>157.0</y>
+            <player>0</player>
+        </state>
+        <state sid="6">
+            <x>62.0</x>
+            <y>314.0</y>
+            <player>0</player>
+        </state>
+    </stateSet>
+    <!--The list of transitions.-->
+    <transitionSet>
+        <transition tid="11">
+            <from>6</from>
+            <to>0</to>
+            <read>g0 w4</read>
+        </transition>
+        <transition tid="10">
+            <from>5</from>
+            <to>0</to>
+            <read>g0 w4</read>
+        </transition>
+        <transition tid="2">
+            <from>1</from>
+            <to>4</to>
+            <read>w0</read>
+        </transition>
+        <transition tid="10">
+            <from>4</from>
+            <to>0</to>
+            <read>g0 w4</read>
+        </transition>
+        <transition tid="5">
+            <from>0</from>
+            <to>5</to>
+            <read>r0 w0</read>
+        </transition>
+        <transition tid="4">
+            <from>4</from>
+            <to>2</to>
+            <read>~g0 w0</read>
+        </transition>
+        <transition tid="11">
+            <from>6</from>
+            <to>0</to>
+            <read>~g0 w8</read>
+        </transition>
+        <transition tid="10">
+            <from>5</from>
+            <to>1</to>
+            <read>~g0 w8</read>
+        </transition>
+        <transition tid="8">
+            <from>0</from>
+            <to>6</to>
+            <read>~r0 w0</read>
+        </transition>
+        <transition tid="1">
+            <from>3</from>
+            <to>2</to>
+            <read>w0</read>
+        </transition>
+        <transition tid="0">
+            <from>2</from>
+            <to>3</to>
+            <read>w0</read>
+        </transition>
+    </transitionSet>
+    <!--The list of initial states.-->
+    <initialStateSet>
+        <stateID>0</stateID>
+    </initialStateSet>
+    <!--The ACC record.-->
+    <acc type="buchi">
+        <stateID>0</stateID>
+        <stateID>1</stateID>
+        <stateID>2</stateID>
+        <stateID>3</stateID>
+        <stateID>4</stateID>
+        <stateID>5</stateID>
+        <stateID>6</stateID>
+    </acc>
+    <!--The automaton description record.-->
+    <description/>
+</structure>

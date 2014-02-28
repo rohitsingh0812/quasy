@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GFF created with GOAL 2009-04-19.-->
+<structure label-on="transition" type="fa">
+    <!--The list of alphabets.-->
+    <alphabet type="propositional">
+        <prop>g0</prop>
+        <prop>g1</prop>
+        <prop>r0</prop>
+        <prop>r1</prop>
+        <prop>w1</prop>
+    </alphabet>
+    <!--The list of states.-->
+    <stateSet>
+        <state sid="0">
+            <x>86.0</x>
+            <y>154.0</y>
+            <label>0</label>
+        </state>
+        <state sid="1">
+            <x>176.0</x>
+            <y>115.0</y>
+            <label>1</label>
+        </state>
+        <state sid="2">
+            <x>82.0</x>
+            <y>270.0</y>
+            <label>1</label>
+        </state>
+        <state sid="3">
+            <x>167.0</x>
+            <y>195.0</y>
+            <label>1</label>
+        </state>
+        <state sid="4">
+            <x>170.0</x>
+            <y>282.0</y>
+            <label>1</label>
+        </state>
+        <state sid="5">
+            <x>262.0</x>
+            <y>83.0</y>
+            <label>1</label>
+        </state>
+        <state sid="6">
+            <x>266.0</x>
+            <y>166.0</y>
+            <label>1</label>
+        </state>
+        <state sid="7">
+            <x>252.0</x>
+            <y>247.0</y>
+            <label>0</label>
+        </state>
+    </stateSet>
+    <!--The list of transitions.-->
+    <transitionSet>
+        <transition tid="91">
+            <from>1</from>
+            <to>0</to>
+            <read>g0 ~g1 ~r1 w1</read>
+        </transition>
+        <transition tid="94">
+            <from>0</from>
+            <to>1</to>
+            <read>g0 ~g1 ~r1 w1</read>
+        </transition>
+        <transition tid="55">
+            <from>6</from>
+            <to>5</to>
+            <read>~g0 ~g1 r0 w1</read>
+        </transition>
+        <transition tid="52">
+            <from>6</from>
+            <to>6</to>
+            <read>~g1 ~r0 w1</read>
+        </transition>
+        <transition tid="66">
+            <from>4</from>
+            <to>4</to>
+            <read>~g0 ~r1 w1</read>
+        </transition>
+        <transition tid="90">
+            <from>1</from>
+            <to>0</to>
+            <read>~g0 g1 ~r0 w1</read>
+        </transition>
+        <transition tid="93">
+            <from>0</from>
+            <to>1</to>
+            <read>~g0 g1 ~r0 w1</read>
+        </transition>
+        <transition tid="70">
+            <from>4</from>
+            <to>3</to>
+            <read>g0 ~g1 r1 w1</read>
+        </transition>
+        <transition tid="93">
+            <from>0</from>
+            <to>3</to>
+            <read>~g1 ~r0 r1 w1</read>
+        </transition>
+        <transition tid="89">
+            <from>1</from>
+            <to>7</to>
+            <read>~g0 g1 r0 w1</read>
+        </transition>
+        <transition tid="74">
+            <from>3</from>
+            <to>6</to>
+            <read>g0 ~g1 w1</read>
+        </transition>
+        <transition tid="91">
+            <from>1</from>
+            <to>0</to>
+            <read>~g1 ~r0 ~r1 w1</read>
+        </transition>
+        <transition tid="94">
+            <from>0</from>
+            <to>1</to>
+            <read>~g1 ~r0 ~r1 w1</read>
+        </transition>
+        <transition tid="91">
+            <from>1</from>
+            <to>0</to>
+            <read>~g0 ~r0 ~r1 w1</read>
+        </transition>
+        <transition tid="94">
+            <from>0</from>
+            <to>1</to>
+            <read>~g0 ~r0 ~r1 w1</read>
+        </transition>
+        <transition tid="47">
+            <from>7</from>
+            <to>3</to>
+            <read>g0 ~g1 r1 w1</read>
+        </transition>
+        <transition tid="73">
+            <from>3</from>
+            <to>7</to>
+            <read>~g0 g1 r0 w1</read>
+        </transition>
+        <transition tid="60">
+            <from>5</from>
+            <to>6</to>
+            <read>g0 ~g1 w1</read>
+        </transition>
+        <transition tid="1">
+            <from>0</from>
+            <to>2</to>
+            <read>~g0 ~g1 r0 r1 w1</read>
+        </transition>
+        <transition tid="90">
+            <from>1</from>
+            <to>6</to>
+            <read>~g1 ~r0 r1 w1</read>
+        </transition>
+        <transition tid="43">
+            <from>7</from>
+            <to>4</to>
+            <read>~g0 ~r1 w1</read>
+        </transition>
+        <transition tid="79">
+            <from>3</from>
+            <to>0</to>
+            <read>~g0 g1 ~r0 w1</read>
+        </transition>
+        <transition tid="92">
+            <from>0</from>
+            <to>4</to>
+            <read>~g0 r0 ~r1 w1</read>
+        </transition>
+        <transition tid="51">
+            <from>6</from>
+            <to>6</to>
+            <read>g0 ~g1 w1</read>
+        </transition>
+        <transition tid="66">
+            <from>4</from>
+            <to>4</to>
+            <read>~g0 g1 w1</read>
+        </transition>
+        <transition tid="92">
+            <from>0</from>
+            <to>4</to>
+            <read>~g0 g1 r0 w1</read>
+        </transition>
+        <transition tid="49">
+            <from>7</from>
+            <to>1</to>
+            <read>g0 ~g1 ~r1 w1</read>
+        </transition>
+        <transition tid="83">
+            <from>2</from>
+            <to>3</to>
+            <read>g0 ~g1 w1</read>
+        </transition>
+        <transition tid="90">
+            <from>1</from>
+            <to>6</to>
+            <read>g0 ~g1 r1 w1</read>
+        </transition>
+        <transition tid="78">
+            <from>3</from>
+            <to>5</to>
+            <read>~g0 ~g1 r0 w1</read>
+        </transition>
+        <transition tid="75">
+            <from>3</from>
+            <to>6</to>
+            <read>~g1 ~r0 w1</read>
+        </transition>
+        <transition tid="71">
+            <from>4</from>
+            <to>2</to>
+            <read>~g0 ~g1 r1 w1</read>
+        </transition>
+        <transition tid="56">
+            <from>6</from>
+            <to>0</to>
+            <read>~g0 g1 ~r0 w1</read>
+        </transition>
+        <transition tid="57">
+            <from>5</from>
+            <to>7</to>
+            <read>~g0 g1 w1</read>
+        </transition>
+        <transition tid="48">
+            <from>7</from>
+            <to>2</to>
+            <read>~g0 ~g1 r1 w1</read>
+        </transition>
+        <transition tid="93">
+            <from>0</from>
+            <to>3</to>
+            <read>g0 ~g1 r1 w1</read>
+        </transition>
+        <transition tid="13">
+            <from>1</from>
+            <to>5</to>
+            <read>~g0 ~g1 r0 r1 w1</read>
+        </transition>
+        <transition tid="89">
+            <from>1</from>
+            <to>7</to>
+            <read>~g0 r0 ~r1 w1</read>
+        </transition>
+        <transition tid="43">
+            <from>7</from>
+            <to>4</to>
+            <read>~g0 g1 w1</read>
+        </transition>
+        <transition tid="50">
+            <from>6</from>
+            <to>7</to>
+            <read>~g0 g1 r0 w1</read>
+        </transition>
+        <transition tid="63">
+            <from>5</from>
+            <to>5</to>
+            <read>~g0 ~g1 w1</read>
+        </transition>
+        <transition tid="86">
+            <from>2</from>
+            <to>2</to>
+            <read>~g0 ~g1 w1</read>
+        </transition>
+        <transition tid="72">
+            <from>4</from>
+            <to>1</to>
+            <read>g0 ~g1 ~r1 w1</read>
+        </transition>
+        <transition tid="80">
+            <from>2</from>
+            <to>4</to>
+            <read>~g0 g1 w1</read>
+        </transition>
+    </transitionSet>
+    <!--The list of initial states.-->
+    <initialStateSet>
+        <stateID>0</stateID>
+    </initialStateSet>
+    <!--The ACC record.-->
+    <acc type="buchi">
+        <stateID>0</stateID>
+        <stateID>7</stateID>
+    </acc>
+    <!--The automaton description record.-->
+    <description/>
+</structure>

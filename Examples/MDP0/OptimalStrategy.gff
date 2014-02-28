@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+ <!--GFF created with GOAL 2009-04-19.--> 
+ <structure label-on="transition" type="game">
+<!--The list of alphabets.-->
+<alphabet type="propositional">
+</alphabet>
+<!--The list of states.-->
+<stateSet>
+<state sid="0">
+<player>1</player></state>
+<state sid="1">
+<player>1</player></state>
+<state sid="2">
+<player>1</player></state>
+<state sid="3">
+<player>1</player></state>
+<state sid="4">
+<player>1</player></state>
+<state sid="5">
+<player>1</player></state>
+<state sid="6">
+<player>1</player></state>
+<state sid="7">
+<player>1</player></state>
+<state sid="8">
+<player>0</player></state>
+<state sid="9">
+<player>0</player></state>
+<state sid="10">
+<player>0</player></state>
+<state sid="11">
+<player>0</player></state>
+<state sid="12">
+<player>0</player></state>
+<state sid="13">
+<player>0</player></state>
+<state sid="14">
+<player>0</player></state>
+<state sid="15">
+<player>0</player></state>
+<state sid="16">
+<player>0</player></state>
+<state sid="17">
+<player>0</player></state>
+<state sid="18">
+<player>0</player></state>
+<state sid="19">
+<player>0</player></state>
+</stateSet>
+<!--The list of transitions.-->
+<transitionSet>
+<transition tid="0">
+<from>0</from>
+<to>18</to>
+<read> ~r0 w0</read>
+</transition>
+<transition tid="1">
+<from>0</from>
+<to>19</to>
+<read> r0 w0</read>
+</transition>
+<transition tid="2">
+<from>1</from>
+<to>14</to>
+<read> r0 w0</read>
+</transition>
+<transition tid="3">
+<from>1</from>
+<to>14</to>
+<read> ~r0 w0</read>
+</transition>
+<transition tid="4">
+<from>2</from>
+<to>8</to>
+<read> ~r0 w0</read>
+</transition>
+<transition tid="5">
+<from>2</from>
+<to>9</to>
+<read> r0 w0</read>
+</transition>
+<transition tid="6">
+<from>3</from>
+<to>15</to>
+<read> r0 w0</read>
+</transition>
+<transition tid="7">
+<from>3</from>
+<to>15</to>
+<read> ~r0 w0</read>
+</transition>
+<transition tid="8">
+<from>4</from>
+<to>11</to>
+<read> r0 w0</read>
+</transition>
+<transition tid="9">
+<from>4</from>
+<to>10</to>
+<read> ~r0 w0</read>
+</transition>
+<transition tid="10">
+<from>5</from>
+<to>17</to>
+<read> ~r0 w0</read>
+</transition>
+<transition tid="11">
+<from>5</from>
+<to>17</to>
+<read> r0 w0</read>
+</transition>
+<transition tid="12">
+<from>6</from>
+<to>13</to>
+<read> r0 w0</read>
+</transition>
+<transition tid="13">
+<from>6</from>
+<to>12</to>
+<read> ~r0 w0</read>
+</transition>
+<transition tid="14">
+<from>7</from>
+<to>16</to>
+<read> r0 w0</read>
+</transition>
+<transition tid="15">
+<from>7</from>
+<to>16</to>
+<read> ~r0 w0</read>
+</transition>
+<transition tid="16">
+<from>8</from>
+<to>4</to>
+<read> ~g0 w1</read>
+</transition>
+<transition tid="17">
+<from>9</from>
+<to>4</to>
+<read> g0 w1</read>
+</transition>
+<transition tid="18">
+<from>10</from>
+<to>0</to>
+<read> g0 w1</read>
+</transition>
+<transition tid="19">
+<from>11</from>
+<to>0</to>
+<read> g0 w1</read>
+</transition>
+<transition tid="20">
+<from>12</from>
+<to>4</to>
+<read> ~g0 w1</read>
+</transition>
+<transition tid="21">
+<from>13</from>
+<to>4</to>
+<read> g0 w1</read>
+</transition>
+<transition tid="22">
+<from>14</from>
+<to>2</to>
+<read> g0 w1</read>
+</transition>
+<transition tid="23">
+<from>15</from>
+<to>4</to>
+<read> g0 w1</read>
+</transition>
+<transition tid="24">
+<from>16</from>
+<to>4</to>
+<read> g0 w1</read>
+</transition>
+<transition tid="25">
+<from>17</from>
+<to>2</to>
+<read> g0 w1</read>
+</transition>
+<transition tid="26">
+<from>18</from>
+<to>2</to>
+<read> g0 w1</read>
+</transition>
+<transition tid="27">
+<from>19</from>
+<to>2</to>
+<read> g0 w1</read>
+</transition>
+</transitionSet>
+<!--The list of initial states.-->
+<initialStateSet>
+<stateID>0</stateID>
+</initialStateSet>
+<!--The ACC record.-->
+<acc type="buchi">
+<stateID>0</stateID>
+<stateID>1</stateID>
+<stateID>2</stateID>
+<stateID>3</stateID>
+<stateID>4</stateID>
+<stateID>5</stateID>
+<stateID>6</stateID>
+<stateID>7</stateID>
+<stateID>8</stateID>
+<stateID>9</stateID>
+<stateID>10</stateID>
+<stateID>11</stateID>
+<stateID>12</stateID>
+<stateID>13</stateID>
+<stateID>14</stateID>
+<stateID>15</stateID>
+<stateID>16</stateID>
+<stateID>17</stateID>
+<stateID>18</stateID>
+<stateID>19</stateID>
+</acc>
+<!--The automaton description record.-->
+<description/>
+</structure>

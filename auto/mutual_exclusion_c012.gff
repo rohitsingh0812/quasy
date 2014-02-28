@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure label-on="transition" type="fa">
+    <!--The list of alphabets.-->
+    <alphabet type="propositional">
+<prop>g0</prop>
+<prop>g1</prop>
+<prop>g2</prop>
+    </alphabet>
+    <stateSet>
+        <state sid="0">
+            <x>197.0</x>
+            <y>118.0</y>
+        </state>
+    </stateSet>
+    <transitionSet>
+        <transition tid="0">
+            <from>0</from>
+            <to>0</to>
+            <read>g0 ~g1 ~g2</read>
+        </transition>
+        <transition tid="1">
+            <from>0</from>
+            <to>0</to>
+            <read>g1 ~g0 ~g2</read>
+        </transition>
+        <transition tid="2">
+            <from>0</from>
+            <to>0</to>
+            <read>g2 ~g0 ~g1</read>
+        </transition>
+        <transition tid="3">
+            <from>0</from>
+            <to>0</to>
+            <read>~g0 ~g1 ~g2</read>
+        </transition>
+    </transitionSet>
+    <initialStateSet>
+        <stateID>0</stateID>
+    </initialStateSet>
+    <acc type="buchi">
+        <stateID>0</stateID>
+    </acc>
+    <description/>
+</structure>

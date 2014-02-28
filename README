@@ -1,0 +1,149 @@
+Quasy: A Tool for Quantitative Synthesis of Reactive Systems
+
+Requirements:
+(1) JAVA & Scala Programming Languages Support:
+    * Scala compiler version 2.8.1.final or higher
+    * Java compiler version 1.6.0_22 or higher
+    * Install any java compiler (support for javac)
+    * Download Scala Distribution from 
+      http://www.scala-lang.org/downloads
+    * Set environment variable PATH to include the bin folder 
+      of the installed SCALA distribution
+
+In order to conveniently generate input files or view output 
+files you will also need:
+
+(2) GOAL [Graphical Tool for Omega-Automata and Logics] 
+    * http://goal.im.ntu.edu.tw/
+
+Compilation: type 'make'
+
+Usage: scala -classpath bin quasy.Main <mode> <options>
+
+Alternatively set classpath first: export CLASSPATH=.:./bin
+
+Functional Modes:
+
+(i) mode = "solveLMPGc"
+
+    * Takes a Lexicographic Mean-Payoff Automaton (LMPA_file) and a
+      safety automaton (SA_file) and outputs their product,
+      corresponding game, optimal strategy for P0 and a Mealy Machine.
+
+    * Uses comparison assuming that tuples are in base b
+      (non-lexicographic) and aprroximates the values using nearest
+      rational no. approximation
+
+    Usage: scala quasy.Main solveLMPGc LMPA_file SA_file output_folder
+
+(ii) mode = "solveLMPGr" or "solveMPG"
+
+    * Takes a (Lexicographic) Mean-Payoff Automaton (MPA_file) and a
+      safety automaton (SA_file) and outputs their product,
+      corresponding game, optimal strategy for P0 and a Mealy Machine.
+
+    * Uses conversion of weights into numbers in base b and
+      aprroximates the values using nearest rational no. 
+      approximation
+
+    Usage: scala quasy.Main solveMPG MPA_file SA_file output_folder
+
+(iii) mode = "solveLMPGl"
+
+    * Takes a Lexicographic Mean-Payoff Automaton (LMPA_file) and a
+      safety automaton (SA_file) and outputs their product,
+      corresponding game, optimal strategy for P0 and a Mealy Machine.
+
+    * Uses lex-vectors for weights but assumes them to be in base b
+      and normalizes (by shifting carries upwards and accumulates 
+      in first component) after every operation. And, finally uses
+      lexicographic comparison.
+    
+    Usage: scala quasy.Main solveLMPGl LMPA_file SA_file output_folder
+
+(iv) mode = "solveDPG"
+
+    * Takes a Lexicographic Mean-Payoff Automaton (LMPA_file), a
+      safety automaton (SA_file) and discounting factor(lambda) and
+      outputs their product, corresponding game, optimal strategy for
+      P0 and a Mealy Machine.
+
+    * Uses pseudo-polynomial greedy policy approximation algorithm for
+      lambda being truncated to 3 decimals.
+
+    Usage: scala quasy.Main solveDPG LMPA_file SA_file lambda output_folder
+
+(v) mode = "solveMDP" or "solveMDPext"
+
+    * Takes a Mean-Payoff Automaton (MPA_file), a safety automaton
+      (SA_file) and a probability distribution file (prob_file) and
+      outputs their product, corresponding game, optimal strategy for
+      P0 and a Mealy Machine corresponding to average mean-payoff
+      measure. (Use empty file for uniform distribution)
+
+    Usage: scala quasy.Main solveMDP MPA_file SA_file prob_file output_folder
+
+(vi) mode = "prodADD"
+
+    * Takes two Lexicographic Mean-Payoff Automata (LMPA_file1 and
+      LMPA_file2) and outputs their product using addition of weights
+      in output file.
+
+    Usage: scala quasy.Main prodADD LMPA_file1 LMPA_file2 output_file
+
+(vii) mode = "prodAPPEND"
+    
+   * Product of two Lexicographic Mean-Payoff Automata (LMPA_file1 and
+      LMPA_file2) using lexicographic appending of weights
+
+    Usage: scala quasy.Main prodAPPEND LMPA_file1 LMPA_file2 output_file
+
+(viii) mode = "prodMULT" 
+
+    * Product of two Lexicographic Mean-Payoff Automata (LMPA_file1
+      and LMPA_file2) using multiplication of weights 
+
+    Usage: scala quasy.Main prodMULT LMPA_file1 LMPA_file2 output_file
+
+(ix) mode = "solveMDPP" or "solveMDPPext"
+
+    * Takes a Lexicographic Mean-Payoff Automata (LMPA_file) and a
+      parity automaton (PA_file) and a probability distribution file
+      (prob_file) and outputs their product, corresponding game,
+      optimal strategy for P0 and two Mealy Machines corresponding to
+      Mean Payoff measure and Parity condition. (Use empty file for
+      uniform distribution.)
+
+    Usage: scala quasy.Main solveMDPP LMPA_file PA_file prob_file output_folder
+
+
+NOTE: You can view the output in the output_folder using GOAL, e.g.,
+
+java -jar goal_2009_04_19.jar open ./auto/react_quickly_client0.gff 
+(assuming the GOAL jar-file in the current folder)
+
+Some Examples:
+
+export CLASSPATH=.:./bin
+(or use "scala -classpath bin")
+
+scala quasy.Main prodAPPEND ./Examples/LexMPG/w0.gff ./Examples/LexMPG/w1.gff ./Examples/LexMPG/w01.gff
+scala quasy.Main solveLMPGr ./Examples/LexMPG/w01.gff ./Examples/LexMPG/safe2.gff Examples/LexMPG/results-solveLMPGr/
+scala quasy.Main solveLMPGc ./Examples/LexMPG/w01.gff ./Examples/LexMPG/safe2.gff Examples/LexMPG/results-solveLMPGc/
+scala quasy.Main solveMPG   ./Examples/LexMPG/w01.gff ./Examples/LexMPG/safe2.gff Examples/LexMPG/results-solveMPG/
+scala quasy.Main solveLMPGl ./Examples/LexMPG/w01.gff ./Examples/LexMPG/safe2.gff 1 0  Examples/LexMPG/results-solveLMPGl/
+scala quasy.Main solveDPG   ./Examples/LexMPG/w01.gff ./Examples/LexMPG/safe2.gff 0.99 Examples/LexMPG/results-solveDPG/
+
+scala quasy.Main prodADD ./Examples/MPMDP/w0.gff ./Examples/MPMDP/w1.gff ./Examples/MPMDP/w01.gff
+scala quasy.Main solveMDPP ./Examples/MPMDP/w01.gff ./Examples/MPMDP/finalparity.gff ./Examples/MPMDP/distro2.txt Examples/MPMDP/results/
+
+scala quasy.Main prodADD ./auto/a1.gff ./auto/a2.gff ./auto/a1pa2.gff
+
+scala quasy.Main prodAPPEND ./auto/a1.gff ./auto/a2.gff ./auto/a1_a2.gff
+
+scala quasy.Main prodMULT ./auto/a1.gff ./auto/a2.gff ./auto/a1ma2.gff
+
+Simple test script:
+
+./test.sh
+

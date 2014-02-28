@@ -1,0 +1,3195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+ <!--GFF created with GOAL 2009-04-19.--> 
+ <structure label-on="transition" type="fa">
+<!--The list of alphabets.-->
+<alphabet type="propositional">
+</alphabet>
+<!--The list of states.-->
+<stateSet>
+<state sid="0">
+<label>(0,0)</label></state>
+<state sid="1">
+<label>(1,0)</label></state>
+<state sid="2">
+<label>(2,0)</label></state>
+<state sid="3">
+<label>(3,0)</label></state>
+<state sid="4">
+<label>(4,0)</label></state>
+<state sid="5">
+<label>(5,0)</label></state>
+<state sid="6">
+<label>(6,0)</label></state>
+<state sid="7">
+<label>(7,0)</label></state>
+<state sid="8">
+<label>(0,1)</label></state>
+<state sid="9">
+<label>(1,1)</label></state>
+<state sid="10">
+<label>(2,1)</label></state>
+<state sid="11">
+<label>(3,1)</label></state>
+<state sid="12">
+<label>(4,1)</label></state>
+<state sid="13">
+<label>(5,1)</label></state>
+<state sid="14">
+<label>(6,1)</label></state>
+<state sid="15">
+<label>(7,1)</label></state>
+</stateSet>
+<!--The list of transitions.-->
+<transitionSet>
+<transition tid="0">
+<from>13</from>
+<to>11</to>
+<read>r1 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="1">
+<from>2</from>
+<to>0</to>
+<read>~r0 ~r2 g1 g3 ~g0 ~g2 w4</read>
+</transition>
+<transition tid="2">
+<from>3</from>
+<to>11</to>
+<read>r3 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="3">
+<from>3</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="4">
+<from>13</from>
+<to>13</to>
+<read>~r1 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="5">
+<from>0</from>
+<to>0</to>
+<read>~r0 ~r1 g2 g3 ~g0 ~g1 w4</read>
+</transition>
+<transition tid="6">
+<from>8</from>
+<to>0</to>
+<read>~r1 ~r2 g0 g3 ~g1 ~g2 w4</read>
+</transition>
+<transition tid="7">
+<from>4</from>
+<to>7</to>
+<read>r0 r1 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="8">
+<from>8</from>
+<to>2</to>
+<read>r1 g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="9">
+<from>5</from>
+<to>2</to>
+<read>r1 ~r3 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="10">
+<from>8</from>
+<to>6</to>
+<read>r1 r2 ~r0 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="11">
+<from>11</from>
+<to>6</to>
+<read>r2 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="12">
+<from>3</from>
+<to>4</to>
+<read>r2 g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="13">
+<from>5</from>
+<to>13</to>
+<read>r3 ~r1 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="14">
+<from>0</from>
+<to>11</to>
+<read>r0 r1 r3 ~r2 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="15">
+<from>7</from>
+<to>2</to>
+<read>g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="16">
+<from>8</from>
+<to>8</to>
+<read>~r0 ~r1 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="17">
+<from>1</from>
+<to>8</to>
+<read>r3 ~r1 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="18">
+<from>12</from>
+<to>15</to>
+<read>r0 r1 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="19">
+<from>9</from>
+<to>10</to>
+<read>r1 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="20">
+<from>8</from>
+<to>3</to>
+<read>r0 r1 ~r2 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="21">
+<from>12</from>
+<to>8</to>
+<read>~r0 ~r1 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="22">
+<from>0</from>
+<to>8</to>
+<read>r3 ~r1 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="23">
+<from>8</from>
+<to>2</to>
+<read>r1 ~r0 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="24">
+<from>7</from>
+<to>3</to>
+<read>~r3 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="25">
+<from>0</from>
+<to>6</to>
+<read>r1 r2 ~r0 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="26">
+<from>2</from>
+<to>4</to>
+<read>r2 ~r0 ~r3 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="27">
+<from>10</from>
+<to>13</to>
+<read>r0 r2 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="28">
+<from>6</from>
+<to>11</to>
+<read>r0 r3 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="29">
+<from>7</from>
+<to>6</to>
+<read>g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="30">
+<from>0</from>
+<to>8</to>
+<read>r3 ~r0 ~r1 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="31">
+<from>15</from>
+<to>10</to>
+<read>g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="32">
+<from>1</from>
+<to>2</to>
+<read>r1 g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="33">
+<from>3</from>
+<to>9</to>
+<read>r3 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="34">
+<from>5</from>
+<to>11</to>
+<read>r1 r3 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="35">
+<from>0</from>
+<to>2</to>
+<read>r1 ~r0 ~r3 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="36">
+<from>11</from>
+<to>8</to>
+<read>g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="37">
+<from>12</from>
+<to>11</to>
+<read>r0 r1 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="38">
+<from>1</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="39">
+<from>13</from>
+<to>1</to>
+<read>~r1 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="40">
+<from>0</from>
+<to>4</to>
+<read>r2 ~r0 ~r1 ~r3 ~g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="41">
+<from>2</from>
+<to>2</to>
+<read>~r0 ~r2 ~r3 ~g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="42">
+<from>7</from>
+<to>8</to>
+<read>r3 g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="43">
+<from>5</from>
+<to>13</to>
+<read>r3 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="44">
+<from>9</from>
+<to>8</to>
+<read>~r1 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="45">
+<from>4</from>
+<to>5</to>
+<read>r0 ~r1 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="46">
+<from>4</from>
+<to>8</to>
+<read>r3 ~r0 ~r1 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="47">
+<from>1</from>
+<to>13</to>
+<read>r2 r3 ~r1 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="48">
+<from>6</from>
+<to>3</to>
+<read>r0 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="49">
+<from>10</from>
+<to>4</to>
+<read>r2 ~r0 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="50">
+<from>9</from>
+<to>13</to>
+<read>r2 ~r1 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="51">
+<from>6</from>
+<to>4</to>
+<read>g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="52">
+<from>2</from>
+<to>7</to>
+<read>r0 r2 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="53">
+<from>0</from>
+<to>0</to>
+<read>~r1 ~r2 ~r3 g0 ~g1 ~g2 ~g3 w4</read>
+</transition>
+<transition tid="54">
+<from>9</from>
+<to>3</to>
+<read>r1 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="55">
+<from>10</from>
+<to>6</to>
+<read>r2 ~r0 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="56">
+<from>0</from>
+<to>2</to>
+<read>r1 ~r3 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="57">
+<from>0</from>
+<to>1</to>
+<read>r0 ~r1 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="58">
+<from>4</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="59">
+<from>0</from>
+<to>6</to>
+<read>r1 r2 ~r3 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="60">
+<from>9</from>
+<to>15</to>
+<read>r1 r2 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="61">
+<from>0</from>
+<to>0</to>
+<read>~r0 ~r3 g1 g2 ~g0 ~g3 w4</read>
+</transition>
+<transition tid="62">
+<from>0</from>
+<to>15</to>
+<read>r0 r1 r2 r3 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="63">
+<from>0</from>
+<to>0</to>
+<read>~r2 g0 g1 g3 ~g2 w4</read>
+</transition>
+<transition tid="64">
+<from>15</from>
+<to>3</to>
+<read>g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="65">
+<from>13</from>
+<to>6</to>
+<read>r1 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="66">
+<from>4</from>
+<to>10</to>
+<read>r1 r3 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="67">
+<from>8</from>
+<to>6</to>
+<read>r1 r2 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="68">
+<from>10</from>
+<to>9</to>
+<read>r0 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="69">
+<from>1</from>
+<to>4</to>
+<read>r2 ~r1 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="70">
+<from>15</from>
+<to>8</to>
+<read>g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="71">
+<from>10</from>
+<to>2</to>
+<read>~r0 ~r2 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="72">
+<from>7</from>
+<to>10</to>
+<read>r3 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="73">
+<from>5</from>
+<to>1</to>
+<read>~r1 ~r3 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="74">
+<from>6</from>
+<to>1</to>
+<read>r0 ~r3 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="75">
+<from>12</from>
+<to>13</to>
+<read>r0 ~r1 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="76">
+<from>8</from>
+<to>8</to>
+<read>~r2 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="77">
+<from>14</from>
+<to>4</to>
+<read>g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="78">
+<from>4</from>
+<to>4</to>
+<read>g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="79">
+<from>2</from>
+<to>0</to>
+<read>~r0 ~r2 ~r3 g1 ~g0 ~g2 ~g3 w4</read>
+</transition>
+<transition tid="80">
+<from>14</from>
+<to>12</to>
+<read>g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="81">
+<from>6</from>
+<to>0</to>
+<read>~r0 ~r3 g1 g2 ~g0 ~g3 w4</read>
+</transition>
+<transition tid="82">
+<from>4</from>
+<to>0</to>
+<read>~r0 ~r3 g1 g2 ~g0 ~g3 w4</read>
+</transition>
+<transition tid="83">
+<from>1</from>
+<to>5</to>
+<read>r2 ~r3 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="84">
+<from>2</from>
+<to>13</to>
+<read>r0 r2 r3 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="85">
+<from>10</from>
+<to>0</to>
+<read>~r0 g1 g2 g3 ~g0 w4</read>
+</transition>
+<transition tid="86">
+<from>2</from>
+<to>6</to>
+<read>r2 ~r0 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="87">
+<from>1</from>
+<to>3</to>
+<read>r1 ~r3 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="88">
+<from>11</from>
+<to>5</to>
+<read>r2 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="89">
+<from>0</from>
+<to>5</to>
+<read>r0 r2 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="90">
+<from>12</from>
+<to>0</to>
+<read>~r0 g1 g2 g3 ~g0 w4</read>
+</transition>
+<transition tid="91">
+<from>6</from>
+<to>13</to>
+<read>r0 r3 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="92">
+<from>13</from>
+<to>15</to>
+<read>r1 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="93">
+<from>4</from>
+<to>0</to>
+<read>~r0 ~r1 ~r3 g2 ~g0 ~g1 ~g3 w4</read>
+</transition>
+<transition tid="94">
+<from>3</from>
+<to>10</to>
+<read>r3 ~r2 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="95">
+<from>12</from>
+<to>14</to>
+<read>r1 ~r0 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="96">
+<from>8</from>
+<to>13</to>
+<read>r0 r2 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="97">
+<from>3</from>
+<to>5</to>
+<read>r2 ~r3 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="98">
+<from>1</from>
+<to>5</to>
+<read>r2 ~r1 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="99">
+<from>3</from>
+<to>3</to>
+<read>~r3 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="100">
+<from>1</from>
+<to>1</to>
+<read>~r2 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="101">
+<from>9</from>
+<to>6</to>
+<read>r1 r2 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="102">
+<from>4</from>
+<to>15</to>
+<read>r0 r1 r3 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="103">
+<from>13</from>
+<to>4</to>
+<read>g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="104">
+<from>3</from>
+<to>6</to>
+<read>r2 ~r3 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="105">
+<from>2</from>
+<to>1</to>
+<read>r0 ~r2 ~r3 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="106">
+<from>12</from>
+<to>10</to>
+<read>r1 ~r0 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="107">
+<from>0</from>
+<to>9</to>
+<read>r0 r3 ~r2 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="108">
+<from>14</from>
+<to>0</to>
+<read>~r0 g1 g2 g3 ~g0 w4</read>
+</transition>
+<transition tid="109">
+<from>1</from>
+<to>15</to>
+<read>r1 r2 r3 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="110">
+<from>8</from>
+<to>8</to>
+<read>~r1 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="111">
+<from>2</from>
+<to>5</to>
+<read>r0 r2 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="112">
+<from>9</from>
+<to>9</to>
+<read>~r2 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="113">
+<from>13</from>
+<to>13</to>
+<read>g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="114">
+<from>3</from>
+<to>10</to>
+<read>r3 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="115">
+<from>6</from>
+<to>5</to>
+<read>r0 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="116">
+<from>1</from>
+<to>1</to>
+<read>g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="117">
+<from>11</from>
+<to>12</to>
+<read>r2 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="118">
+<from>8</from>
+<to>8</to>
+<read>~r0 ~r1 ~r2 ~g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="119">
+<from>12</from>
+<to>10</to>
+<read>r1 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="120">
+<from>0</from>
+<to>0</to>
+<read>~r1 g0 g2 g3 ~g1 w4</read>
+</transition>
+<transition tid="121">
+<from>14</from>
+<to>13</to>
+<read>r0 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="122">
+<from>1</from>
+<to>9</to>
+<read>r3 ~r2 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="123">
+<from>5</from>
+<to>15</to>
+<read>r1 r3 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="124">
+<from>4</from>
+<to>0</to>
+<read>~r1 ~r3 g0 g2 ~g1 ~g3 w4</read>
+</transition>
+<transition tid="125">
+<from>6</from>
+<to>14</to>
+<read>r3 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="126">
+<from>12</from>
+<to>4</to>
+<read>~r1 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="127">
+<from>4</from>
+<to>14</to>
+<read>r1 r3 ~r0 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="128">
+<from>4</from>
+<to>6</to>
+<read>r1 ~r0 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="129">
+<from>13</from>
+<to>12</to>
+<read>~r1 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="130">
+<from>8</from>
+<to>4</to>
+<read>r2 ~r0 ~r1 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="131">
+<from>0</from>
+<to>8</to>
+<read>r3 ~r0 ~r1 ~r2 ~g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="132">
+<from>0</from>
+<to>1</to>
+<read>r0 ~r2 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="133">
+<from>1</from>
+<to>9</to>
+<read>r3 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="134">
+<from>4</from>
+<to>1</to>
+<read>r0 ~r3 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="135">
+<from>12</from>
+<to>0</to>
+<read>~r1 g0 g2 g3 ~g1 w4</read>
+</transition>
+<transition tid="136">
+<from>2</from>
+<to>4</to>
+<read>r2 ~r3 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="137">
+<from>8</from>
+<to>9</to>
+<read>r0 ~r2 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="138">
+<from>6</from>
+<to>6</to>
+<read>~r3 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="139">
+<from>4</from>
+<to>2</to>
+<read>r1 ~r0 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="140">
+<from>11</from>
+<to>1</to>
+<read>~r2 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="141">
+<from>5</from>
+<to>4</to>
+<read>~r1 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="142">
+<from>6</from>
+<to>2</to>
+<read>~r3 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="143">
+<from>4</from>
+<to>13</to>
+<read>r0 r3 ~r1 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="144">
+<from>9</from>
+<to>9</to>
+<read>g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="145">
+<from>5</from>
+<to>7</to>
+<read>r1 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="146">
+<from>1</from>
+<to>6</to>
+<read>r1 r2 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="147">
+<from>5</from>
+<to>5</to>
+<read>g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="148">
+<from>0</from>
+<to>4</to>
+<read>r2 ~r3 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="149">
+<from>9</from>
+<to>5</to>
+<read>r2 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="150">
+<from>0</from>
+<to>5</to>
+<read>r0 r2 ~r1 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="151">
+<from>3</from>
+<to>12</to>
+<read>r2 r3 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="152">
+<from>10</from>
+<to>0</to>
+<read>~r0 ~r2 g1 g3 ~g0 ~g2 w4</read>
+</transition>
+<transition tid="153">
+<from>0</from>
+<to>4</to>
+<read>r2 g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="154">
+<from>3</from>
+<to>1</to>
+<read>~r2 ~r3 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="155">
+<from>10</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="156">
+<from>0</from>
+<to>13</to>
+<read>r0 r2 r3 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="157">
+<from>5</from>
+<to>8</to>
+<read>r3 ~r1 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="158">
+<from>15</from>
+<to>4</to>
+<read>g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="159">
+<from>15</from>
+<to>9</to>
+<read>g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="160">
+<from>7</from>
+<to>14</to>
+<read>r3 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="161">
+<from>12</from>
+<to>5</to>
+<read>r0 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="162">
+<from>8</from>
+<to>4</to>
+<read>r2 g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="163">
+<from>13</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="164">
+<from>12</from>
+<to>4</to>
+<read>~r0 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="165">
+<from>2</from>
+<to>8</to>
+<read>r3 ~r2 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="166">
+<from>0</from>
+<to>4</to>
+<read>r2 ~r0 ~r3 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="167">
+<from>11</from>
+<to>10</to>
+<read>g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="168">
+<from>1</from>
+<to>0</to>
+<read>~r2 ~r3 g0 g1 ~g2 ~g3 w4</read>
+</transition>
+<transition tid="169">
+<from>1</from>
+<to>1</to>
+<read>~r1 ~r2 ~r3 ~g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="170">
+<from>0</from>
+<to>1</to>
+<read>r0 g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="171">
+<from>2</from>
+<to>2</to>
+<read>~r0 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="172">
+<from>1</from>
+<to>7</to>
+<read>r1 r2 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="173">
+<from>13</from>
+<to>0</to>
+<read>~r1 g0 g2 g3 ~g1 w4</read>
+</transition>
+<transition tid="174">
+<from>9</from>
+<to>0</to>
+<read>~r2 g0 g1 g3 ~g2 w4</read>
+</transition>
+<transition tid="175">
+<from>3</from>
+<to>1</to>
+<read>g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="176">
+<from>4</from>
+<to>3</to>
+<read>r0 r1 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="177">
+<from>1</from>
+<to>1</to>
+<read>~r1 ~r3 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="178">
+<from>8</from>
+<to>1</to>
+<read>r0 ~r1 ~r2 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="179">
+<from>7</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="180">
+<from>0</from>
+<to>0</to>
+<read>~r0 ~r2 ~r3 g1 ~g0 ~g2 ~g3 w4</read>
+</transition>
+<transition tid="181">
+<from>5</from>
+<to>0</to>
+<read>~r1 ~r3 g0 g2 ~g1 ~g3 w4</read>
+</transition>
+<transition tid="182">
+<from>14</from>
+<to>2</to>
+<read>~r0 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="183">
+<from>6</from>
+<to>12</to>
+<read>r3 ~r0 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="184">
+<from>14</from>
+<to>6</to>
+<read>g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="185">
+<from>7</from>
+<to>1</to>
+<read>g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="186">
+<from>0</from>
+<to>0</to>
+<read>~r0 ~r1 ~r2 g3 ~g0 ~g1 ~g2 w4</read>
+</transition>
+<transition tid="187">
+<from>9</from>
+<to>1</to>
+<read>~r2 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="188">
+<from>12</from>
+<to>8</to>
+<read>g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="189">
+<from>15</from>
+<to>14</to>
+<read>g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="190">
+<from>0</from>
+<to>5</to>
+<read>r0 r2 ~r1 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="191">
+<from>2</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="192">
+<from>8</from>
+<to>4</to>
+<read>r2 ~r0 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="193">
+<from>5</from>
+<to>0</to>
+<read>~r3 g0 g1 g2 ~g3 w4</read>
+</transition>
+<transition tid="194">
+<from>8</from>
+<to>9</to>
+<read>r0 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="195">
+<from>2</from>
+<to>10</to>
+<read>r3 ~r0 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="196">
+<from>2</from>
+<to>15</to>
+<read>r0 r2 r3 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="197">
+<from>0</from>
+<to>12</to>
+<read>r2 r3 ~r0 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="198">
+<from>14</from>
+<to>12</to>
+<read>~r0 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="199">
+<from>0</from>
+<to>2</to>
+<read>r1 ~r0 ~r2 ~r3 ~g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="200">
+<from>7</from>
+<to>7</to>
+<read>~r3 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="201">
+<from>0</from>
+<to>8</to>
+<read>r3 ~r2 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="202">
+<from>4</from>
+<to>8</to>
+<read>r3 g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="203">
+<from>13</from>
+<to>12</to>
+<read>g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="204">
+<from>9</from>
+<to>0</to>
+<read>~r1 ~r2 g0 g3 ~g1 ~g2 w4</read>
+</transition>
+<transition tid="205">
+<from>12</from>
+<to>12</to>
+<read>~r0 ~r1 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="206">
+<from>4</from>
+<to>4</to>
+<read>~r0 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="207">
+<from>15</from>
+<to>5</to>
+<read>g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="208">
+<from>15</from>
+<to>7</to>
+<read>g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="209">
+<from>2</from>
+<to>3</to>
+<read>r0 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="210">
+<from>4</from>
+<to>1</to>
+<read>r0 ~r1 ~r3 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="211">
+<from>3</from>
+<to>3</to>
+<read>~r2 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="212">
+<from>4</from>
+<to>2</to>
+<read>r1 g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="213">
+<from>11</from>
+<to>0</to>
+<read>~r2 g0 g1 g3 ~g2 w4</read>
+</transition>
+<transition tid="214">
+<from>9</from>
+<to>1</to>
+<read>~r1 ~r2 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="215">
+<from>2</from>
+<to>0</to>
+<read>~r0 ~r3 g1 g2 ~g0 ~g3 w4</read>
+</transition>
+<transition tid="216">
+<from>5</from>
+<to>5</to>
+<read>~r1 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="217">
+<from>3</from>
+<to>15</to>
+<read>r2 r3 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="218">
+<from>3</from>
+<to>2</to>
+<read>g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="219">
+<from>5</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="220">
+<from>1</from>
+<to>0</to>
+<read>~r1 ~r2 ~r3 g0 ~g1 ~g2 ~g3 w4</read>
+</transition>
+<transition tid="221">
+<from>3</from>
+<to>0</to>
+<read>~r2 ~r3 g0 g1 ~g2 ~g3 w4</read>
+</transition>
+<transition tid="222">
+<from>0</from>
+<to>3</to>
+<read>r0 r1 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="223">
+<from>0</from>
+<to>9</to>
+<read>r0 r3 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="224">
+<from>6</from>
+<to>12</to>
+<read>r3 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="225">
+<from>11</from>
+<to>15</to>
+<read>r2 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="226">
+<from>10</from>
+<to>10</to>
+<read>~r0 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="227">
+<from>12</from>
+<to>4</to>
+<read>g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="228">
+<from>12</from>
+<to>1</to>
+<read>r0 g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="229">
+<from>8</from>
+<to>9</to>
+<read>r0 ~r1 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="230">
+<from>10</from>
+<to>2</to>
+<read>g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="231">
+<from>12</from>
+<to>12</to>
+<read>~r0 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="232">
+<from>6</from>
+<to>15</to>
+<read>r0 r3 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="233">
+<from>3</from>
+<to>2</to>
+<read>~r2 ~r3 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="234">
+<from>7</from>
+<to>4</to>
+<read>~r3 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="235">
+<from>2</from>
+<to>2</to>
+<read>~r3 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="236">
+<from>10</from>
+<to>1</to>
+<read>r0 ~r2 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="237">
+<from>4</from>
+<to>12</to>
+<read>r3 ~r0 ~r1 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="238">
+<from>4</from>
+<to>10</to>
+<read>r1 r3 ~r0 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="239">
+<from>0</from>
+<to>9</to>
+<read>r0 r3 ~r1 ~r2 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="240">
+<from>11</from>
+<to>13</to>
+<read>r2 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="241">
+<from>10</from>
+<to>6</to>
+<read>r2 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="242">
+<from>0</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="243">
+<from>1</from>
+<to>0</to>
+<read>~r1 ~r3 g0 g2 ~g1 ~g3 w4</read>
+</transition>
+<transition tid="244">
+<from>8</from>
+<to>11</to>
+<read>r0 r1 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="245">
+<from>4</from>
+<to>4</to>
+<read>~r1 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="246">
+<from>2</from>
+<to>8</to>
+<read>r3 ~r0 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="247">
+<from>13</from>
+<to>1</to>
+<read>g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="248">
+<from>4</from>
+<to>11</to>
+<read>r0 r1 r3 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="249">
+<from>0</from>
+<to>8</to>
+<read>r3 ~r0 ~r2 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="250">
+<from>1</from>
+<to>4</to>
+<read>r2 ~r3 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="251">
+<from>3</from>
+<to>7</to>
+<read>r2 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="252">
+<from>10</from>
+<to>1</to>
+<read>r0 g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="253">
+<from>2</from>
+<to>3</to>
+<read>r0 ~r2 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="254">
+<from>1</from>
+<to>12</to>
+<read>r2 r3 ~r1 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="255">
+<from>12</from>
+<to>12</to>
+<read>~r1 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="256">
+<from>13</from>
+<to>2</to>
+<read>r1 g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="257">
+<from>8</from>
+<to>0</to>
+<read>~r0 g1 g2 g3 ~g0 w4</read>
+</transition>
+<transition tid="258">
+<from>5</from>
+<to>4</to>
+<read>g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="259">
+<from>13</from>
+<to>14</to>
+<read>r1 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="260">
+<from>6</from>
+<to>14</to>
+<read>r3 ~r0 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="261">
+<from>8</from>
+<to>4</to>
+<read>r2 ~r1 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="262">
+<from>14</from>
+<to>15</to>
+<read>r0 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="263">
+<from>10</from>
+<to>3</to>
+<read>r0 ~r2 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="264">
+<from>12</from>
+<to>1</to>
+<read>r0 ~r1 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="265">
+<from>2</from>
+<to>12</to>
+<read>r2 r3 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="266">
+<from>10</from>
+<to>11</to>
+<read>r0 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="267">
+<from>1</from>
+<to>3</to>
+<read>r1 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="268">
+<from>0</from>
+<to>8</to>
+<read>r3 g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="269">
+<from>9</from>
+<to>1</to>
+<read>~r1 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="270">
+<from>8</from>
+<to>2</to>
+<read>r1 ~r0 ~r2 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="271">
+<from>2</from>
+<to>2</to>
+<read>~r0 ~r2 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="272">
+<from>2</from>
+<to>2</to>
+<read>~r2 ~r3 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="273">
+<from>9</from>
+<to>0</to>
+<read>~r1 g0 g2 g3 ~g1 w4</read>
+</transition>
+<transition tid="274">
+<from>14</from>
+<to>8</to>
+<read>g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="275">
+<from>2</from>
+<to>11</to>
+<read>r0 r3 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="276">
+<from>6</from>
+<to>2</to>
+<read>~r0 ~r3 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="277">
+<from>6</from>
+<to>4</to>
+<read>~r0 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="278">
+<from>0</from>
+<to>7</to>
+<read>r0 r1 r2 ~r3 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="279">
+<from>6</from>
+<to>10</to>
+<read>r3 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="280">
+<from>11</from>
+<to>3</to>
+<read>~r2 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="281">
+<from>4</from>
+<to>6</to>
+<read>r1 ~r3 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="282">
+<from>6</from>
+<to>8</to>
+<read>r3 g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="283">
+<from>9</from>
+<to>12</to>
+<read>r2 ~r1 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="284">
+<from>9</from>
+<to>11</to>
+<read>r1 ~r2 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="285">
+<from>6</from>
+<to>6</to>
+<read>~r0 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="286">
+<from>5</from>
+<to>12</to>
+<read>r3 ~r1 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="287">
+<from>0</from>
+<to>3</to>
+<read>r0 r1 ~r2 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="288">
+<from>11</from>
+<to>9</to>
+<read>g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="289">
+<from>6</from>
+<to>7</to>
+<read>r0 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="290">
+<from>0</from>
+<to>1</to>
+<read>r0 ~r1 ~r2 ~r3 ~g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="291">
+<from>4</from>
+<to>4</to>
+<read>~r0 ~r1 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="292">
+<from>14</from>
+<to>6</to>
+<read>~r0 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="293">
+<from>11</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="294">
+<from>5</from>
+<to>1</to>
+<read>~r3 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="295">
+<from>14</from>
+<to>9</to>
+<read>r0 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="296">
+<from>10</from>
+<to>8</to>
+<read>~r2 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="297">
+<from>0</from>
+<to>2</to>
+<read>r1 ~r2 ~r3 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="298">
+<from>2</from>
+<to>0</to>
+<read>~r2 g0 g1 g3 ~g2 w4</read>
+</transition>
+<transition tid="299">
+<from>10</from>
+<to>2</to>
+<read>~r2 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="300">
+<from>1</from>
+<to>10</to>
+<read>r1 r3 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="301">
+<from>6</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="302">
+<from>8</from>
+<to>2</to>
+<read>r1 ~r2 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="303">
+<from>9</from>
+<to>2</to>
+<read>r1 ~r2 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="304">
+<from>9</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="305">
+<from>6</from>
+<to>3</to>
+<read>r0 ~r3 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="306">
+<from>4</from>
+<to>5</to>
+<read>r0 ~r3 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="307">
+<from>12</from>
+<to>6</to>
+<read>r1 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="308">
+<from>2</from>
+<to>6</to>
+<read>r2 ~r3 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="309">
+<from>8</from>
+<to>8</to>
+<read>g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="310">
+<from>0</from>
+<to>4</to>
+<read>r2 ~r1 ~r3 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="311">
+<from>0</from>
+<to>2</to>
+<read>r1 g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="312">
+<from>1</from>
+<to>2</to>
+<read>r1 ~r2 ~r3 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="313">
+<from>1</from>
+<to>11</to>
+<read>r1 r3 ~r2 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="314">
+<from>0</from>
+<to>11</to>
+<read>r0 r1 r3 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="315">
+<from>0</from>
+<to>0</to>
+<read>~r0 ~r1 ~r3 g2 ~g0 ~g1 ~g3 w4</read>
+</transition>
+<transition tid="316">
+<from>0</from>
+<to>8</to>
+<read>r3 ~r1 ~r2 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="317">
+<from>4</from>
+<to>7</to>
+<read>r0 r1 ~r3 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="318">
+<from>12</from>
+<to>0</to>
+<read>~r0 ~r1 g2 g3 ~g0 ~g1 w4</read>
+</transition>
+<transition tid="319">
+<from>8</from>
+<to>10</to>
+<read>r1 ~r0 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="320">
+<from>5</from>
+<to>2</to>
+<read>r1 g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="321">
+<from>3</from>
+<to>14</to>
+<read>r2 r3 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="322">
+<from>2</from>
+<to>4</to>
+<read>r2 ~r0 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="323">
+<from>5</from>
+<to>3</to>
+<read>r1 ~r3 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="324">
+<from>3</from>
+<to>4</to>
+<read>r2 ~r3 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="325">
+<from>3</from>
+<to>0</to>
+<read>~r3 g0 g1 g2 ~g3 w4</read>
+</transition>
+<transition tid="326">
+<from>13</from>
+<to>5</to>
+<read>~r1 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="327">
+<from>0</from>
+<to>0</to>
+<read>~r1 ~r2 g0 g3 ~g1 ~g2 w4</read>
+</transition>
+<transition tid="328">
+<from>8</from>
+<to>8</to>
+<read>~r1 ~r2 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="329">
+<from>8</from>
+<to>14</to>
+<read>r1 r2 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="330">
+<from>4</from>
+<to>5</to>
+<read>r0 ~r1 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="331">
+<from>7</from>
+<to>15</to>
+<read>r3 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="332">
+<from>0</from>
+<to>10</to>
+<read>r1 r3 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="333">
+<from>8</from>
+<to>0</to>
+<read>~r2 g0 g1 g3 ~g2 w4</read>
+</transition>
+<transition tid="334">
+<from>9</from>
+<to>4</to>
+<read>r2 g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="335">
+<from>11</from>
+<to>3</to>
+<read>g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="336">
+<from>5</from>
+<to>5</to>
+<read>~r1 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="337">
+<from>11</from>
+<to>9</to>
+<read>~r2 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="338">
+<from>0</from>
+<to>2</to>
+<read>r1 ~r2 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="339">
+<from>0</from>
+<to>6</to>
+<read>r1 r2 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="340">
+<from>12</from>
+<to>8</to>
+<read>~r1 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="341">
+<from>14</from>
+<to>3</to>
+<read>r0 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="342">
+<from>1</from>
+<to>2</to>
+<read>r1 ~r3 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="343">
+<from>8</from>
+<to>11</to>
+<read>r0 r1 ~r2 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="344">
+<from>0</from>
+<to>0</to>
+<read>~r2 ~r3 g0 g1 ~g2 ~g3 w4</read>
+</transition>
+<transition tid="345">
+<from>4</from>
+<to>6</to>
+<read>r1 ~r0 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="346">
+<from>6</from>
+<to>8</to>
+<read>r3 ~r0 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="347">
+<from>10</from>
+<to>5</to>
+<read>r0 r2 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="348">
+<from>9</from>
+<to>7</to>
+<read>r1 r2 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="349">
+<from>8</from>
+<to>0</to>
+<read>~r0 ~r1 g2 g3 ~g0 ~g1 w4</read>
+</transition>
+<transition tid="350">
+<from>5</from>
+<to>5</to>
+<read>~r3 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="351">
+<from>7</from>
+<to>2</to>
+<read>~r3 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="352">
+<from>11</from>
+<to>1</to>
+<read>g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="353">
+<from>7</from>
+<to>3</to>
+<read>g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="354">
+<from>0</from>
+<to>2</to>
+<read>r1 ~r0 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="355">
+<from>4</from>
+<to>6</to>
+<read>r1 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="356">
+<from>1</from>
+<to>7</to>
+<read>r1 r2 ~r3 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="357">
+<from>10</from>
+<to>10</to>
+<read>~r0 ~r2 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="358">
+<from>8</from>
+<to>10</to>
+<read>r1 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="359">
+<from>0</from>
+<to>14</to>
+<read>r1 r2 r3 ~r0 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="360">
+<from>6</from>
+<to>9</to>
+<read>r0 r3 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="361">
+<from>1</from>
+<to>5</to>
+<read>r2 ~r1 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="362">
+<from>0</from>
+<to>14</to>
+<read>r1 r2 r3 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="363">
+<from>3</from>
+<to>3</to>
+<read>g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="364">
+<from>13</from>
+<to>9</to>
+<read>~r1 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="365">
+<from>7</from>
+<to>6</to>
+<read>~r3 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="366">
+<from>2</from>
+<to>10</to>
+<read>r3 ~r0 ~r2 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="367">
+<from>3</from>
+<to>1</to>
+<read>~r2 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="368">
+<from>9</from>
+<to>5</to>
+<read>r2 ~r1 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="369">
+<from>8</from>
+<to>12</to>
+<read>r2 ~r1 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="370">
+<from>10</from>
+<to>7</to>
+<read>r0 r2 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="371">
+<from>13</from>
+<to>3</to>
+<read>r1 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="372">
+<from>1</from>
+<to>0</to>
+<read>~r3 g0 g1 g2 ~g3 w4</read>
+</transition>
+<transition tid="373">
+<from>10</from>
+<to>12</to>
+<read>r2 ~r0 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="374">
+<from>11</from>
+<to>11</to>
+<read>g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="375">
+<from>0</from>
+<to>4</to>
+<read>r2 ~r0 ~r1 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="376">
+<from>0</from>
+<to>10</to>
+<read>r1 r3 ~r0 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="377">
+<from>2</from>
+<to>1</to>
+<read>r0 ~r3 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="378">
+<from>2</from>
+<to>14</to>
+<read>r2 r3 ~r0 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="379">
+<from>5</from>
+<to>10</to>
+<read>r1 r3 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="380">
+<from>13</from>
+<to>5</to>
+<read>g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="381">
+<from>15</from>
+<to>2</to>
+<read>g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="382">
+<from>5</from>
+<to>1</to>
+<read>~r1 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="383">
+<from>6</from>
+<to>1</to>
+<read>r0 g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="384">
+<from>5</from>
+<to>14</to>
+<read>r1 r3 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="385">
+<from>2</from>
+<to>12</to>
+<read>r2 r3 ~r0 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="386">
+<from>15</from>
+<to>11</to>
+<read>g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="387">
+<from>2</from>
+<to>7</to>
+<read>r0 r2 ~r3 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="388">
+<from>6</from>
+<to>4</to>
+<read>~r3 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="389">
+<from>15</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="390">
+<from>10</from>
+<to>9</to>
+<read>r0 ~r2 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="391">
+<from>4</from>
+<to>4</to>
+<read>~r3 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="392">
+<from>14</from>
+<to>7</to>
+<read>r0 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="393">
+<from>4</from>
+<to>1</to>
+<read>r0 g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="394">
+<from>1</from>
+<to>1</to>
+<read>~r2 ~r3 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="395">
+<from>9</from>
+<to>14</to>
+<read>r1 r2 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="396">
+<from>9</from>
+<to>11</to>
+<read>r1 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="397">
+<from>2</from>
+<to>1</to>
+<read>r0 ~r2 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="398">
+<from>11</from>
+<to>2</to>
+<read>~r2 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="399">
+<from>0</from>
+<to>1</to>
+<read>r0 ~r1 ~r3 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="400">
+<from>8</from>
+<to>5</to>
+<read>r0 r2 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="401">
+<from>12</from>
+<to>2</to>
+<read>r1 ~r0 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="402">
+<from>5</from>
+<to>3</to>
+<read>r1 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="403">
+<from>6</from>
+<to>0</to>
+<read>~r0 g1 g2 g3 ~g0 w4</read>
+</transition>
+<transition tid="404">
+<from>5</from>
+<to>7</to>
+<read>r1 ~r3 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="405">
+<from>1</from>
+<to>5</to>
+<read>r2 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="406">
+<from>11</from>
+<to>14</to>
+<read>r2 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="407">
+<from>1</from>
+<to>3</to>
+<read>r1 ~r2 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="408">
+<from>2</from>
+<to>1</to>
+<read>r0 g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="409">
+<from>3</from>
+<to>13</to>
+<read>r2 r3 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="410">
+<from>0</from>
+<to>5</to>
+<read>r0 r2 ~r3 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="411">
+<from>14</from>
+<to>8</to>
+<read>~r0 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="412">
+<from>2</from>
+<to>5</to>
+<read>r0 r2 ~r3 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="413">
+<from>4</from>
+<to>0</to>
+<read>~r0 ~r1 g2 g3 ~g0 ~g1 w4</read>
+</transition>
+<transition tid="414">
+<from>12</from>
+<to>5</to>
+<read>r0 ~r1 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="415">
+<from>13</from>
+<to>7</to>
+<read>r1 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="416">
+<from>1</from>
+<to>1</to>
+<read>~r3 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="417">
+<from>6</from>
+<to>5</to>
+<read>r0 ~r3 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="418">
+<from>8</from>
+<to>7</to>
+<read>r0 r1 r2 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="419">
+<from>4</from>
+<to>2</to>
+<read>r1 ~r0 ~r3 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="420">
+<from>8</from>
+<to>1</to>
+<read>r0 ~r2 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="421">
+<from>15</from>
+<to>15</to>
+<read>~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="422">
+<from>0</from>
+<to>0</to>
+<read>~r1 ~r3 g0 g2 ~g1 ~g3 w4</read>
+</transition>
+<transition tid="423">
+<from>3</from>
+<to>5</to>
+<read>r2 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="424">
+<from>14</from>
+<to>5</to>
+<read>r0 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="425">
+<from>4</from>
+<to>0</to>
+<read>~r0 g1 g2 g3 ~g0 w4</read>
+</transition>
+<transition tid="426">
+<from>1</from>
+<to>11</to>
+<read>r1 r3 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="427">
+<from>12</from>
+<to>9</to>
+<read>r0 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="428">
+<from>5</from>
+<to>12</to>
+<read>r3 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="429">
+<from>12</from>
+<to>7</to>
+<read>r0 r1 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="430">
+<from>7</from>
+<to>5</to>
+<read>~r3 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="431">
+<from>12</from>
+<to>6</to>
+<read>r1 ~r0 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="432">
+<from>12</from>
+<to>2</to>
+<read>r1 g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="433">
+<from>1</from>
+<to>13</to>
+<read>r2 r3 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="434">
+<from>8</from>
+<to>0</to>
+<read>~r1 g0 g2 g3 ~g1 w4</read>
+</transition>
+<transition tid="435">
+<from>2</from>
+<to>8</to>
+<read>r3 g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="436">
+<from>1</from>
+<to>6</to>
+<read>r1 r2 ~r3 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="437">
+<from>4</from>
+<to>8</to>
+<read>r3 ~r0 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="438">
+<from>3</from>
+<to>6</to>
+<read>r2 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="439">
+<from>14</from>
+<to>14</to>
+<read>g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="440">
+<from>10</from>
+<to>12</to>
+<read>r2 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="441">
+<from>5</from>
+<to>6</to>
+<read>r1 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="442">
+<from>0</from>
+<to>0</to>
+<read>~r0 ~r1 ~r2 ~r3 ~g0 ~g1 ~g2 ~g3 w4</read>
+</transition>
+<transition tid="443">
+<from>5</from>
+<to>9</to>
+<read>r3 ~r1 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="444">
+<from>8</from>
+<to>12</to>
+<read>r2 ~r0 ~r1 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="445">
+<from>0</from>
+<to>9</to>
+<read>r0 r3 ~r1 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="446">
+<from>0</from>
+<to>0</to>
+<read>~r0 ~r2 g1 g3 ~g0 ~g2 w4</read>
+</transition>
+<transition tid="447">
+<from>4</from>
+<to>8</to>
+<read>r3 ~r1 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="448">
+<from>11</from>
+<to>4</to>
+<read>r2 g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="449">
+<from>2</from>
+<to>4</to>
+<read>r2 g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="450">
+<from>12</from>
+<to>8</to>
+<read>~r0 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="451">
+<from>4</from>
+<to>12</to>
+<read>r3 ~r1 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="452">
+<from>8</from>
+<to>5</to>
+<read>r0 r2 ~r1 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="453">
+<from>9</from>
+<to>13</to>
+<read>r2 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="454">
+<from>3</from>
+<to>9</to>
+<read>r3 ~r2 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="455">
+<from>10</from>
+<to>8</to>
+<read>~r0 ~r2 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="456">
+<from>6</from>
+<to>2</to>
+<read>g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="457">
+<from>2</from>
+<to>0</to>
+<read>~r3 g0 g1 g2 ~g3 w4</read>
+</transition>
+<transition tid="458">
+<from>1</from>
+<to>14</to>
+<read>r1 r2 r3 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="459">
+<from>9</from>
+<to>1</to>
+<read>g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="460">
+<from>10</from>
+<to>8</to>
+<read>g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="461">
+<from>4</from>
+<to>0</to>
+<read>~r1 g0 g2 g3 ~g1 w4</read>
+</transition>
+<transition tid="462">
+<from>0</from>
+<to>12</to>
+<read>r2 r3 ~r0 ~r1 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="463">
+<from>6</from>
+<to>6</to>
+<read>g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="464">
+<from>0</from>
+<to>1</to>
+<read>r0 ~r2 ~r3 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="465">
+<from>14</from>
+<to>10</to>
+<read>g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="466">
+<from>8</from>
+<to>0</to>
+<read>~r0 ~r1 ~r2 g3 ~g0 ~g1 ~g2 w4</read>
+</transition>
+<transition tid="467">
+<from>5</from>
+<to>4</to>
+<read>~r1 ~r3 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="468">
+<from>2</from>
+<to>8</to>
+<read>r3 ~r0 ~r2 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="469">
+<from>0</from>
+<to>2</to>
+<read>r1 ~r0 ~r2 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="470">
+<from>8</from>
+<to>13</to>
+<read>r0 r2 ~r1 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="471">
+<from>11</from>
+<to>2</to>
+<read>g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="472">
+<from>1</from>
+<to>8</to>
+<read>r3 ~r2 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="473">
+<from>2</from>
+<to>10</to>
+<read>r3 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="474">
+<from>14</from>
+<to>4</to>
+<read>~r0 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="475">
+<from>0</from>
+<to>3</to>
+<read>r0 r1 ~r3 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="476">
+<from>7</from>
+<to>0</to>
+<read>~r3 g0 g1 g2 ~g3 w4</read>
+</transition>
+<transition tid="477">
+<from>0</from>
+<to>13</to>
+<read>r0 r2 r3 ~r1 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="478">
+<from>0</from>
+<to>4</to>
+<read>r2 ~r0 g1 g3 ~g0 ~g2 w3</read>
+</transition>
+<transition tid="479">
+<from>6</from>
+<to>10</to>
+<read>r3 ~r0 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="480">
+<from>9</from>
+<to>8</to>
+<read>~r2 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="481">
+<from>9</from>
+<to>9</to>
+<read>~r1 ~r2 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="482">
+<from>7</from>
+<to>9</to>
+<read>r3 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="483">
+<from>3</from>
+<to>8</to>
+<read>r3 ~r2 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="484">
+<from>15</from>
+<to>1</to>
+<read>g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="485">
+<from>2</from>
+<to>3</to>
+<read>r0 ~r2 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="486">
+<from>8</from>
+<to>12</to>
+<read>r2 ~r0 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="487">
+<from>8</from>
+<to>8</to>
+<read>~r0 ~r2 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="488">
+<from>4</from>
+<to>12</to>
+<read>r3 ~r0 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="489">
+<from>13</from>
+<to>8</to>
+<read>g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="490">
+<from>1</from>
+<to>1</to>
+<read>~r1 ~r2 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="491">
+<from>0</from>
+<to>1</to>
+<read>r0 ~r3 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="492">
+<from>7</from>
+<to>13</to>
+<read>r3 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="493">
+<from>3</from>
+<to>1</to>
+<read>~r3 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="494">
+<from>1</from>
+<to>0</to>
+<read>~r2 g0 g1 g3 ~g2 w4</read>
+</transition>
+<transition tid="495">
+<from>4</from>
+<to>12</to>
+<read>r3 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="496">
+<from>7</from>
+<to>1</to>
+<read>~r3 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="497">
+<from>12</from>
+<to>13</to>
+<read>r0 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="498">
+<from>8</from>
+<to>12</to>
+<read>r2 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="499">
+<from>8</from>
+<to>9</to>
+<read>r0 ~r1 ~r2 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="500">
+<from>15</from>
+<to>6</to>
+<read>g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="501">
+<from>13</from>
+<to>8</to>
+<read>~r1 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="502">
+<from>6</from>
+<to>4</to>
+<read>~r0 ~r3 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="503">
+<from>13</from>
+<to>4</to>
+<read>~r1 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="504">
+<from>11</from>
+<to>7</to>
+<read>r2 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="505">
+<from>7</from>
+<to>5</to>
+<read>g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="506">
+<from>2</from>
+<to>2</to>
+<read>~r0 ~r3 g2 ~g0 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="507">
+<from>9</from>
+<to>8</to>
+<read>~r1 ~r2 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="508">
+<from>2</from>
+<to>6</to>
+<read>r2 ~r0 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="509">
+<from>2</from>
+<to>14</to>
+<read>r2 r3 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="510">
+<from>7</from>
+<to>4</to>
+<read>g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="511">
+<from>12</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="512">
+<from>3</from>
+<to>3</to>
+<read>~r2 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="513">
+<from>11</from>
+<to>8</to>
+<read>~r2 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="514">
+<from>5</from>
+<to>4</to>
+<read>~r3 g0 g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="515">
+<from>0</from>
+<to>8</to>
+<read>r3 ~r0 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="516">
+<from>2</from>
+<to>0</to>
+<read>~r0 g1 g2 g3 ~g0 w4</read>
+</transition>
+<transition tid="517">
+<from>1</from>
+<to>8</to>
+<read>r3 ~r1 ~r2 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="518">
+<from>2</from>
+<to>3</to>
+<read>r0 ~r3 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="519">
+<from>1</from>
+<to>9</to>
+<read>r3 ~r1 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="520">
+<from>8</from>
+<to>1</to>
+<read>r0 ~r1 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="521">
+<from>12</from>
+<to>12</to>
+<read>g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="522">
+<from>12</from>
+<to>4</to>
+<read>~r0 ~r1 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="523">
+<from>4</from>
+<to>3</to>
+<read>r0 r1 ~r3 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="524">
+<from>7</from>
+<to>11</to>
+<read>r3 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="525">
+<from>0</from>
+<to>12</to>
+<read>r2 r3 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="526">
+<from>1</from>
+<to>9</to>
+<read>r3 ~r1 ~r2 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="527">
+<from>8</from>
+<to>15</to>
+<read>r0 r1 r2 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="528">
+<from>5</from>
+<to>0</to>
+<read>~r1 g0 g2 g3 ~g1 w4</read>
+</transition>
+<transition tid="529">
+<from>2</from>
+<to>2</to>
+<read>g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="530">
+<from>10</from>
+<to>8</to>
+<read>~r0 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="531">
+<from>9</from>
+<to>9</to>
+<read>~r1 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="532">
+<from>11</from>
+<to>10</to>
+<read>~r2 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="533">
+<from>7</from>
+<to>12</to>
+<read>r3 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="534">
+<from>5</from>
+<to>8</to>
+<read>r3 g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="535">
+<from>4</from>
+<to>2</to>
+<read>r1 ~r3 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="536">
+<from>3</from>
+<to>7</to>
+<read>r2 ~r3 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="537">
+<from>10</from>
+<to>10</to>
+<read>g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="538">
+<from>3</from>
+<to>2</to>
+<read>~r3 g0 g2 ~g1 ~g3 w3</read>
+</transition>
+<transition tid="539">
+<from>10</from>
+<to>14</to>
+<read>r2 ~r0 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="540">
+<from>15</from>
+<to>13</to>
+<read>g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="541">
+<from>15</from>
+<to>12</to>
+<read>g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="542">
+<from>7</from>
+<to>7</to>
+<read>g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="543">
+<from>8</from>
+<to>1</to>
+<read>r0 g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="544">
+<from>3</from>
+<to>0</to>
+<read>~r2 g0 g1 g3 ~g2 w4</read>
+</transition>
+<transition tid="545">
+<from>10</from>
+<to>3</to>
+<read>r0 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="546">
+<from>1</from>
+<to>0</to>
+<read>~r1 g0 g2 g3 ~g1 w4</read>
+</transition>
+<transition tid="547">
+<from>8</from>
+<to>8</to>
+<read>~r0 g1 g2 ~g0 ~g3 w3</read>
+</transition>
+<transition tid="548">
+<from>9</from>
+<to>3</to>
+<read>r1 ~r2 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="549">
+<from>1</from>
+<to>10</to>
+<read>r1 r3 ~r2 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="550">
+<from>5</from>
+<to>6</to>
+<read>r1 ~r3 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="551">
+<from>8</from>
+<to>0</to>
+<read>~r0 ~r2 g1 g3 ~g0 ~g2 w4</read>
+</transition>
+<transition tid="552">
+<from>2</from>
+<to>9</to>
+<read>r0 r3 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="553">
+<from>6</from>
+<to>7</to>
+<read>r0 ~r3 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="554">
+<from>1</from>
+<to>4</to>
+<read>r2 g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="555">
+<from>10</from>
+<to>11</to>
+<read>r0 ~r2 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="556">
+<from>10</from>
+<to>4</to>
+<read>r2 g0 g1 g3 ~g2 w3</read>
+</transition>
+<transition tid="557">
+<from>1</from>
+<to>4</to>
+<read>r2 ~r1 ~r3 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="558">
+<from>13</from>
+<to>9</to>
+<read>g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="559">
+<from>4</from>
+<to>14</to>
+<read>r1 r3 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="560">
+<from>2</from>
+<to>2</to>
+<read>~r2 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="561">
+<from>4</from>
+<to>9</to>
+<read>r0 r3 ~r1 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="562">
+<from>10</from>
+<to>14</to>
+<read>r2 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="563">
+<from>0</from>
+<to>0</to>
+<read>~r3 g0 g1 g2 ~g3 w4</read>
+</transition>
+<transition tid="564">
+<from>10</from>
+<to>15</to>
+<read>r0 r2 ~g0 ~g1 ~g2 ~g3 w0</read>
+</transition>
+<transition tid="565">
+<from>3</from>
+<to>8</to>
+<read>r3 g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="566">
+<from>2</from>
+<to>9</to>
+<read>r0 r3 ~r2 g1 ~g0 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="567">
+<from>4</from>
+<to>9</to>
+<read>r0 r3 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="568">
+<from>0</from>
+<to>10</to>
+<read>r1 r3 ~r0 ~r2 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="569">
+<from>12</from>
+<to>3</to>
+<read>r0 r1 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="570">
+<from>5</from>
+<to>9</to>
+<read>r3 g1 g2 ~g0 ~g3 w2</read>
+</transition>
+<transition tid="571">
+<from>0</from>
+<to>12</to>
+<read>r2 r3 ~r1 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="572">
+<from>12</from>
+<to>9</to>
+<read>r0 ~r1 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="573">
+<from>10</from>
+<to>10</to>
+<read>~r2 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="574">
+<from>14</from>
+<to>14</to>
+<read>~r0 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="575">
+<from>13</from>
+<to>10</to>
+<read>r1 g0 g2 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="576">
+<from>4</from>
+<to>4</to>
+<read>~r0 ~r3 g1 ~g0 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="577">
+<from>1</from>
+<to>0</to>
+<read>~r1 ~r2 g0 g3 ~g1 ~g2 w4</read>
+</transition>
+<transition tid="578">
+<from>10</from>
+<to>2</to>
+<read>~r0 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="579">
+<from>0</from>
+<to>3</to>
+<read>r0 r1 ~r2 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="580">
+<from>6</from>
+<to>2</to>
+<read>~r0 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="581">
+<from>9</from>
+<to>12</to>
+<read>r2 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="582">
+<from>3</from>
+<to>2</to>
+<read>~r2 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="583">
+<from>2</from>
+<to>11</to>
+<read>r0 r3 ~r2 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="584">
+<from>14</from>
+<to>10</to>
+<read>~r0 g2 ~g0 ~g1 ~g3 w2</read>
+</transition>
+<transition tid="585">
+<from>5</from>
+<to>1</to>
+<read>g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="586">
+<from>0</from>
+<to>10</to>
+<read>r1 r3 ~r2 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="587">
+<from>14</from>
+<to>1</to>
+<read>r0 g1 g2 g3 ~g0 w3</read>
+</transition>
+<transition tid="588">
+<from>4</from>
+<to>4</to>
+<read>~r0 ~r1 ~r3 ~g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="589">
+<from>12</from>
+<to>14</to>
+<read>r1 g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="590">
+<from>14</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="591">
+<from>9</from>
+<to>4</to>
+<read>r2 ~r1 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="592">
+<from>4</from>
+<to>4</to>
+<read>~r1 ~r3 g0 ~g1 ~g2 ~g3 w3</read>
+</transition>
+<transition tid="593">
+<from>0</from>
+<to>4</to>
+<read>r2 ~r1 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="594">
+<from>6</from>
+<to>0</to>
+<read>~r3 g0 g1 g2 ~g3 w4</read>
+</transition>
+<transition tid="595">
+<from>8</from>
+<to>10</to>
+<read>r1 ~r0 ~r2 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="596">
+<from>0</from>
+<to>7</to>
+<read>r0 r1 r2 g3 ~g0 ~g1 ~g2 w1</read>
+</transition>
+<transition tid="597">
+<from>8</from>
+<to>10</to>
+<read>r1 ~r2 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="598">
+<from>14</from>
+<to>11</to>
+<read>r0 g2 ~g0 ~g1 ~g3 w1</read>
+</transition>
+<transition tid="599">
+<from>14</from>
+<to>2</to>
+<read>g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="600">
+<from>11</from>
+<to>11</to>
+<read>~r2 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="601">
+<from>4</from>
+<to>0</to>
+<read>~r3 g0 g1 g2 ~g3 w4</read>
+</transition>
+<transition tid="602">
+<from>4</from>
+<to>13</to>
+<read>r0 r3 g1 ~g0 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="603">
+<from>8</from>
+<to>3</to>
+<read>r0 r1 g2 g3 ~g0 ~g1 w2</read>
+</transition>
+<transition tid="604">
+<from>1</from>
+<to>8</to>
+<read>r3 g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="605">
+<from>1</from>
+<to>2</to>
+<read>r1 ~r2 g0 g3 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="606">
+<from>1</from>
+<to>12</to>
+<read>r2 r3 g0 g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="607">
+<from>6</from>
+<to>6</to>
+<read>~r0 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="608">
+<from>3</from>
+<to>11</to>
+<read>r3 ~r2 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="609">
+<from>2</from>
+<to>0</to>
+<read>~r2 ~r3 g0 g1 ~g2 ~g3 w4</read>
+</transition>
+<transition tid="610">
+<from>8</from>
+<to>0</to>
+<read>g0 g1 g2 g3 w4</read>
+</transition>
+<transition tid="611">
+<from>0</from>
+<to>6</to>
+<read>r1 r2 ~r0 g3 ~g0 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="612">
+<from>2</from>
+<to>6</to>
+<read>r2 g0 g3 ~g1 ~g2 w2</read>
+</transition>
+<transition tid="613">
+<from>9</from>
+<to>10</to>
+<read>r1 ~r2 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="614">
+<from>10</from>
+<to>0</to>
+<read>~r2 g0 g1 g3 ~g2 w4</read>
+</transition>
+<transition tid="615">
+<from>0</from>
+<to>0</to>
+<read>~r0 g1 g2 g3 ~g0 w4</read>
+</transition>
+<transition tid="616">
+<from>9</from>
+<to>2</to>
+<read>r1 g0 g2 g3 ~g1 w3</read>
+</transition>
+<transition tid="617">
+<from>1</from>
+<to>3</to>
+<read>r1 ~r2 ~r3 ~g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="618">
+<from>9</from>
+<to>8</to>
+<read>g0 g1 g2 ~g3 w3</read>
+</transition>
+<transition tid="619">
+<from>8</from>
+<to>14</to>
+<read>r1 r2 ~r0 ~g0 ~g1 ~g2 ~g3 w1</read>
+</transition>
+<transition tid="620">
+<from>4</from>
+<to>1</to>
+<read>r0 ~r1 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+<transition tid="621">
+<from>0</from>
+<to>1</to>
+<read>r0 ~r1 ~r2 g3 ~g0 ~g1 ~g2 w3</read>
+</transition>
+<transition tid="622">
+<from>4</from>
+<to>5</to>
+<read>r0 g1 g3 ~g0 ~g2 w2</read>
+</transition>
+<transition tid="623">
+<from>2</from>
+<to>10</to>
+<read>r3 ~r2 g0 ~g1 ~g2 ~g3 w2</read>
+</transition>
+<transition tid="624">
+<from>1</from>
+<to>1</to>
+<read>~r1 g2 g3 ~g0 ~g1 w3</read>
+</transition>
+</transitionSet>
+<!--The list of initial states.-->
+<initialStateSet>
+<stateID>0</stateID>
+</initialStateSet>
+<!--The ACC record.-->
+<acc type="buchi">
+<stateID>0</stateID>
+<stateID>1</stateID>
+<stateID>2</stateID>
+<stateID>3</stateID>
+<stateID>4</stateID>
+<stateID>5</stateID>
+<stateID>6</stateID>
+<stateID>7</stateID>
+<stateID>8</stateID>
+<stateID>9</stateID>
+<stateID>10</stateID>
+<stateID>11</stateID>
+<stateID>12</stateID>
+<stateID>13</stateID>
+<stateID>14</stateID>
+<stateID>15</stateID>
+</acc>
+<!--The automaton description record.-->
+<description/>
+</structure>
